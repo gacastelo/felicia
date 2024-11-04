@@ -8,6 +8,7 @@ import pyperclip
 import logging
 from views.base_view import BaseView
 from views.popups.mensagem_popup import MensagemPopup
+from datetime import datetime
 
 class GerenciadorView(BaseView):
     def __init__(self, master):
@@ -90,70 +91,84 @@ class GerenciadorView(BaseView):
         frame_header = ctk.CTkFrame(self.frame_tabela)
         frame_header.pack(fill="x", padx=5, pady=5)
         
-        colunas = [
-            ("Site", 2),
-            ("Usuário", 2),
-            ("Última Modificação", 1)
-        ]
+        # Cria três frames com proporções específicas
+        frame_site = ctk.CTkFrame(frame_header, fg_color="transparent")
+        frame_site.pack(side="left", fill="x", padx=2, expand=True, anchor="w")
         
-        for texto, peso in colunas:
-            frame_coluna = ctk.CTkFrame(frame_header)
-            frame_coluna.pack(side="left", expand=True, fill="x", padx=2)
-            
-            label = ctk.CTkLabel(
-                frame_coluna,
-                text=texto,
-                font=("Roboto", 12, "bold"),
-                anchor="w"
-            )
-            label.pack(fill="x", padx=5, pady=5)
+        frame_usuario = ctk.CTkFrame(frame_header, fg_color="transparent")
+        frame_usuario.pack(side="left", fill="x", padx=2, expand=True, anchor="w")
+        
+        frame_data = ctk.CTkFrame(frame_header, fg_color="transparent")
+        frame_data.pack(side="right", fill="x", padx=2, expand=True, anchor="w")
+        
+        # Labels alinhados à esquerda
+        ctk.CTkLabel(
+            frame_site,
+            text="Site",
+            font=("Roboto", 12, "bold"),
+            anchor="w",
+            width=200  # Largura fixa
+        ).pack(side="left", padx=5)
+        
+        ctk.CTkLabel(
+            frame_usuario,
+            text="Usuário",
+            font=("Roboto", 12, "bold"),
+            anchor="w",
+            width=200  # Largura fixa
+        ).pack(side="left", padx=5)
+        
+        ctk.CTkLabel(
+            frame_data,
+            text="Última Modificação",
+            font=("Roboto", 12, "bold"),
+            anchor="w",
+            width=200  # Largura fixa
+        ).pack(side="left", padx=5)
     
     def _criar_item_senha(self, senha, frame):
         frame_item = ctk.CTkFrame(frame)
         frame_item.pack(fill="x", padx=5, pady=2)
         
-        # Adiciona um evento de clique no frame principal
-        frame_item.bind("<Button-1>", lambda e, s=senha, f=frame_item: self._selecionar_item(s, f))
-        
         # Site
         frame_site = ctk.CTkFrame(frame_item, fg_color="transparent")
-        frame_site.pack(side="left", expand=True, fill="x", padx=2)
+        frame_site.pack(side="left", fill="x", padx=2, expand=True, anchor="w")
+        
         label_site = ctk.CTkLabel(
             frame_site,
             text=senha.site,
-            anchor="w"
+            anchor="w",
+            width=200  # Mesma largura do cabeçalho
         )
-        label_site.pack(fill="x", padx=5)
+        label_site.pack(side="left", padx=5)
         
         # Usuário
         frame_usuario = ctk.CTkFrame(frame_item, fg_color="transparent")
-        frame_usuario.pack(side="left", expand=True, fill="x", padx=2)
+        frame_usuario.pack(side="left", fill="x", padx=2, expand=True, anchor="w")
+        
         label_usuario = ctk.CTkLabel(
             frame_usuario,
             text=senha.username or "",
-            anchor="w"
+            anchor="w",
+            width=200  # Mesma largura do cabeçalho
         )
-        label_usuario.pack(fill="x", padx=5)
+        label_usuario.pack(side="left", padx=5)
         
-        # Data de modificação
+        # Data
         frame_data = ctk.CTkFrame(frame_item, fg_color="transparent")
-        frame_data.pack(side="left", expand=True, fill="x", padx=2)
+        frame_data.pack(side="right", fill="x", padx=2, expand=True, anchor="w")
         
-        # Verifica se data_modificacao é string ou datetime
-        if hasattr(senha.data_modificacao, 'strftime'):
-            data_texto = senha.data_modificacao.strftime("%d/%m/%Y %H:%M")
-        else:
-            data_texto = str(senha.data_modificacao)  # Usa a string diretamente
-            
+        data_formatada = self._formatar_data(senha.data_modificacao)
         label_data = ctk.CTkLabel(
             frame_data,
-            text=data_texto,
-            anchor="w"
+            text=data_formatada,
+            anchor="w",
+            width=200  # Mesma largura do cabeçalho
         )
-        label_data.pack(fill="x", padx=5)
+        label_data.pack(side="left", padx=5)
         
-        # Bind de clique para todos os elementos
-        for widget in [frame_site, frame_usuario, frame_data,
+        # Bind de clique
+        for widget in [frame_item, frame_site, frame_usuario, frame_data,
                       label_site, label_usuario, label_data]:
             widget.bind("<Button-1>", lambda e, s=senha, f=frame_item: self._selecionar_item(s, f))
     
@@ -307,3 +322,22 @@ class GerenciadorView(BaseView):
     
     def _mostrar_sucesso(self, mensagem):
         MensagemPopup(self, "Sucesso", mensagem)
+
+    def _formatar_data(self, timestamp):
+        try:
+            # Primeiro, vamos garantir que temos uma string e remover qualquer espaço extra
+            timestamp_str = str(timestamp).strip()
+            
+            # Tenta fazer o parse da data
+            data = datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S.%f")
+            
+            # Formata para o padrão brasileiro
+            return data.strftime("%d/%m/%Y %H:%M")
+        except Exception as e:
+            # Se houver erro, tenta um formato alternativo sem os microssegundos
+            try:
+                data = datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S")
+                return data.strftime("%d/%m/%Y %H:%M")
+            except:
+                # Se ainda houver erro, retorna o timestamp original
+                return timestamp_str
