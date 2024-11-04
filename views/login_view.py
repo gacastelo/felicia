@@ -1,6 +1,7 @@
 from views.base_view import BaseView
 import customtkinter as ctk
 from views.popups.base_popup import BasePopup
+from views.popups.mensagem_popup import MensagemPopup
 
 class LoginView(BaseView):
     def __init__(self, master):
@@ -104,10 +105,4 @@ class LoginView(BaseView):
         GerenciadorView(self.master)
     
     def _mostrar_erro(self, mensagem):
-        erro = BasePopup(self, "Erro")
-        
-        label = ctk.CTkLabel(erro, text=mensagem)
-        label.pack(pady=20)
-        
-        btn = ctk.CTkButton(erro, text="OK", command=erro.destroy)
-        btn.pack(pady=10)
+        MensagemPopup(self, "Erro", mensagem)

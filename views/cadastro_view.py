@@ -197,23 +197,9 @@ class CadastroView(ctk.CTkFrame):
         LoginView(self.master)
     
     def _mostrar_erro(self, mensagem):
-        from views.popups.base_popup import BasePopup
-        
-        erro = BasePopup(self, "Erro")
-        
-        label = ctk.CTkLabel(erro, text=mensagem)
-        label.pack(pady=20)
-        
-        btn = ctk.CTkButton(erro, text="OK", command=erro.destroy)
-        btn.pack(pady=10)
+        from views.popups.mensagem_popup import MensagemPopup
+        MensagemPopup(self, "Erro", mensagem)
     
     def _mostrar_sucesso(self, mensagem):
-        from views.popups.base_popup import BasePopup
-        
-        sucesso = BasePopup(self, "Sucesso")
-        
-        label = ctk.CTkLabel(sucesso, text=mensagem)
-        label.pack(pady=20)
-        
-        btn = ctk.CTkButton(sucesso, text="OK", command=sucesso.destroy)
-        btn.pack(pady=10)
+        from views.popups.mensagem_popup import MensagemPopup
+        MensagemPopup(self, "Sucesso", mensagem)

@@ -2,8 +2,9 @@ from views.popups.base_popup import BasePopup
 import customtkinter as ctk
 
 class MensagemPopup(BasePopup):
-    def __init__(self, master, titulo, mensagem, largura=300, altura=150):
-        super().__init__(master, titulo, largura, altura)
+    def __init__(self, master, titulo, mensagem):
+        # Tamanho menor para pop-ups de mensagem
+        super().__init__(master, titulo, largura=300, altura=150)
         
         # Label com a mensagem
         label = ctk.CTkLabel(self, text=mensagem)
