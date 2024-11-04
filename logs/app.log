@@ -179,3 +179,195 @@
 2024-11-03 22:36:01,401 - senha_controller - INFO - Senhas listadas com sucesso
 2024-11-03 22:36:01,421 - gerenciador_view - INFO - Lista atualizada com 1 senhas
 2024-11-03 22:36:19,636 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-03 22:52:10,106 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 22:58:25,006 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 22:59:17,720 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:01:42,355 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:01:58,913 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:01:58,915 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:03:41,538 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:03:52,802 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:03:52,803 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:04:44,636 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:04:55,226 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:04:55,227 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:04:55,369 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:04:55,369 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:04:55,377 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:05:10,179 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:10,182 - senha_model - INFO - Nova senha criada para o site: aa
+2024-11-03 23:05:10,185 - senha_controller - INFO - Nova senha adicionada para o site: aa
+2024-11-03 23:05:10,197 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:10,197 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:10,197 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:05:10,223 - gerenciador_view - INFO - Lista atualizada com 2 senhas
+2024-11-03 23:05:11,923 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:11,924 - senha_model - INFO - Senha deletada para o site: aa
+2024-11-03 23:05:11,925 - senha_controller - INFO - Senha removida para o site: aa
+2024-11-03 23:05:11,937 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:11,937 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:05:11,958 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:05:13,326 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:13,326 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:05:13,342 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:05:17,509 - gerenciador_view - INFO - Senha copiado para área de transferência
+2024-11-03 23:05:18,733 - gerenciador_view - INFO - Usuario copiado para área de transferência
+2024-11-03 23:05:34,669 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:34,671 - senha_model - INFO - Nova senha criada para o site: aa
+2024-11-03 23:05:34,673 - senha_controller - INFO - Nova senha adicionada para o site: aa
+2024-11-03 23:05:34,685 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:34,685 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:34,685 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:05:34,707 - gerenciador_view - INFO - Lista atualizada com 2 senhas
+2024-11-03 23:05:40,158 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:40,158 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:40,158 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:05:40,711 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:40,711 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:40,711 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:05:41,367 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:41,367 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:41,367 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:05:42,352 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:42,352 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:42,352 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:05:42,511 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:42,511 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:42,512 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:05:42,663 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:42,663 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:42,663 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:05:42,831 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:42,831 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:42,831 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:05:43,680 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:43,680 - senha_model - INFO - Senha deletada para o site: aa
+2024-11-03 23:05:43,682 - senha_controller - INFO - Senha removida para o site: aa
+2024-11-03 23:05:43,695 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:05:43,695 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:05:43,715 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:05:46,331 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-03 23:06:53,167 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:07:01,960 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:07:01,962 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:07:02,106 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:07:02,106 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:07:02,115 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:08:13,942 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:08:13,942 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:08:13,958 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:08:15,092 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:08:15,092 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:08:15,107 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:08:37,144 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-03 23:11:39,453 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:11:50,560 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:11:50,561 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:11:50,728 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:11:50,728 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:11:50,739 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:12:07,645 - gerenciador_view - INFO - Senha copiado para área de transferência
+2024-11-03 23:12:09,533 - gerenciador_view - INFO - Usuario copiado para área de transferência
+2024-11-03 23:12:17,457 - gerenciador_view - INFO - Senha copiado para área de transferência
+2024-11-03 23:13:28,009 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-03 23:13:42,981 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:13:49,402 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:13:49,405 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:13:49,570 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:13:49,571 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:13:49,580 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:14:01,368 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:14:01,368 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:14:01,381 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:14:56,608 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:15:03,375 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:15:03,377 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:15:03,535 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:15:03,535 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:15:03,544 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:15:17,013 - gerenciador_view - INFO - Senha copiado para área de transferência
+2024-11-03 23:15:18,822 - gerenciador_view - INFO - Usuario copiado para área de transferência
+2024-11-03 23:15:24,389 - root - INFO - Tema alterado para: light
+2024-11-03 23:15:27,426 - root - INFO - Tema alterado para: dark
+2024-11-03 23:15:29,390 - root - INFO - Tema alterado para: system
+2024-11-03 23:15:31,888 - root - INFO - Tema alterado para: light
+2024-11-03 23:15:42,426 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:15:42,426 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:15:42,439 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:16:05,076 - root - INFO - Tema alterado para: dark
+2024-11-03 23:16:56,349 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-03 23:17:03,706 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:17:17,553 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:17:17,555 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:17:17,711 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:17:17,711 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:17:17,720 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:17:31,042 - root - INFO - Tema alterado para: dark
+2024-11-03 23:17:33,123 - root - INFO - Tema alterado para: light
+2024-11-03 23:17:36,228 - root - INFO - Tema alterado para: light
+2024-11-03 23:17:38,099 - root - INFO - Tema alterado para: dark
+2024-11-03 23:17:39,693 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-03 23:22:28,806 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:22:36,962 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:22:36,964 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:22:37,112 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:22:37,112 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:22:37,122 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:24:17,964 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-03 23:24:50,189 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:24:57,539 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:25:02,059 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:25:02,061 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:25:02,219 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:25:02,220 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:25:02,229 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:29:08,607 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:29:18,346 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:29:18,348 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:29:18,490 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:29:18,490 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:29:18,500 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:29:30,317 - gerenciador_view - INFO - Senha copiado para área de transferência
+2024-11-03 23:30:17,015 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-03 23:30:24,248 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:30:32,851 - auth_controller - WARNING - Tentativa de login com usuário inexistente: Gabriel99
+2024-11-03 23:30:36,701 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:30:36,702 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:30:36,864 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:30:36,864 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:30:36,874 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-03 23:30:43,645 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:30:43,648 - senha_model - INFO - Nova senha criada para o site: a
+2024-11-03 23:30:43,650 - senha_controller - INFO - Nova senha adicionada para o site: a
+2024-11-03 23:30:43,667 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:30:43,667 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:30:43,667 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:30:43,690 - gerenciador_view - INFO - Lista atualizada com 2 senhas
+2024-11-03 23:32:51,470 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:32:58,585 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:32:58,588 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:32:58,734 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:32:58,734 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:32:58,734 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:32:58,751 - gerenciador_view - INFO - Lista atualizada com 2 senhas
+2024-11-03 23:33:06,199 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:33:06,200 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:33:06,201 - senha_model - INFO - Senha atualizada para o site: a
+2024-11-03 23:33:06,202 - senha_controller - INFO - Senha alterada para o site: a
+2024-11-03 23:33:06,217 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:33:06,217 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:33:06,217 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:33:06,247 - gerenciador_view - INFO - Lista atualizada com 2 senhas
+2024-11-03 23:33:08,621 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:33:08,621 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:33:08,621 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:33:08,648 - gerenciador_view - INFO - Lista atualizada com 2 senhas
+2024-11-03 23:33:13,567 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:33:13,568 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:33:13,570 - senha_model - INFO - Senha atualizada para o site: ass
+2024-11-03 23:33:13,572 - senha_controller - INFO - Senha alterada para o site: ass
+2024-11-03 23:33:13,590 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:33:13,591 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:33:13,591 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:33:13,619 - gerenciador_view - INFO - Lista atualizada com 2 senhas
+2024-11-03 23:33:16,670 - gerenciador_view - INFO - Senha copiado para área de transferência

@@ -1,10 +1,9 @@
+from views.base_view import BaseView
 import customtkinter as ctk
 
-class LoginView(ctk.CTkFrame):
+class LoginView(BaseView):
     def __init__(self, master):
         super().__init__(master)
-        self.master = master
-        self.pack(fill="both", expand=True)
         self._criar_widgets()
     
     def _criar_widgets(self):

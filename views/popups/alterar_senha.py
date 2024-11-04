@@ -1,32 +1,15 @@
+from views.popups.base_popup import BasePopup
 import customtkinter as ctk
 import string
 import secrets
 import pyperclip
 
-class AlterarSenhaPopup(ctk.CTkToplevel):
-    def __init__(self, master, senha_atual):
-        super().__init__(master)
-        self.master = master
-        self.senha_atual = senha_atual
-        
-        # Configurações da janela
-        self.title("Alterar Senha")
-        self.geometry("400x500")
-        self.grab_set()  # Torna a janela modal
-        self.focus_force()  # Força o foco para esta janela
-        self.lift()  # Traz a janela para frente
-        
-        # Centralizar na tela
-        self.update_idletasks()
-        x = (self.winfo_screenwidth() - self.winfo_width()) // 2
-        y = (self.winfo_screenheight() - self.winfo_height()) // 2
-        self.geometry(f"+{x}+{y}")
-        
+class AlterarSenhaPopup(BasePopup):
+    def __init__(self, master, senha):
+        super().__init__(master, "Alterar Senha")
+        self.senha = senha
         self._criar_widgets()
         self._preencher_dados_atuais()
-        
-        # Protocolo para quando a janela for fechada
-        self.protocol("WM_DELETE_WINDOW", self._ao_fechar)
     
     def _criar_widgets(self):
         # Frame principal
@@ -70,8 +53,7 @@ class AlterarSenhaPopup(ctk.CTkToplevel):
         )
         self.senha_entry.pack(side="left", padx=5)
         
-        # Botão para mostrar/ocultar senha
-        self.mostrar_senha_var = ctk.BooleanVar(value=False)
+        # Botões de senha
         btn_mostrar = ctk.CTkButton(
             frame_senha,
             text="👁",
@@ -80,7 +62,6 @@ class AlterarSenhaPopup(ctk.CTkToplevel):
         )
         btn_mostrar.pack(side="left", padx=2)
         
-        # Botão para gerar senha
         btn_gerar = ctk.CTkButton(
             frame_senha,
             text="Gerar",
@@ -94,9 +75,10 @@ class AlterarSenhaPopup(ctk.CTkToplevel):
         frame_opcoes.pack(fill="x", pady=10)
         
         # Tamanho da senha
-        self.tamanho_var = ctk.IntVar(value=16)
         label_tamanho = ctk.CTkLabel(frame_opcoes, text="Tamanho:")
         label_tamanho.pack(side="left", padx=5)
+        
+        self.tamanho_var = ctk.IntVar(value=16)
         self.tamanho_entry = ctk.CTkEntry(
             frame_opcoes,
             width=50,
@@ -104,7 +86,7 @@ class AlterarSenhaPopup(ctk.CTkToplevel):
         )
         self.tamanho_entry.pack(side="left", padx=5)
         
-        # Checkboxes para opções de senha
+        # Checkboxes
         frame_checks = ctk.CTkFrame(frame_principal)
         frame_checks.pack(fill="x", pady=10)
         
@@ -121,46 +103,36 @@ class AlterarSenhaPopup(ctk.CTkToplevel):
         ]
         
         for texto, var in opcoes:
-            check = ctk.CTkCheckBox(
-                frame_checks,
-                text=texto,
-                variable=var
-            )
+            check = ctk.CTkCheckBox(frame_checks, text=texto, variable=var)
             check.pack(side="left", padx=5)
         
-        # Frame para botões
-        frame_botoes = ctk.CTkFrame(frame_principal)
-        frame_botoes.pack(pady=20)
+        # Botões de ação - Agora em um frame separado no final
+        frame_botoes = ctk.CTkFrame(self)  # Filho direto do self
+        frame_botoes.pack(side="bottom", pady=20)
         
-        # Botão salvar
         btn_salvar = ctk.CTkButton(
             frame_botoes,
             text="Salvar",
-            command=self._salvar
+            command=self._salvar,
+            width=100
         )
         btn_salvar.pack(side="left", padx=5)
         
-        # Botão cancelar
         btn_cancelar = ctk.CTkButton(
             frame_botoes,
             text="Cancelar",
-            command=self.destroy
+            command=self.destroy,
+            width=100
         )
         btn_cancelar.pack(side="left", padx=5)
         
-        # Botão copiar
         btn_copiar = ctk.CTkButton(
             frame_botoes,
             text="Copiar",
-            command=self._copiar_senha
+            command=self._copiar_senha,
+            width=100
         )
         btn_copiar.pack(side="left", padx=5)
-    
-    def _preencher_dados_atuais(self):
-        """Preenche os campos com os dados atuais da senha"""
-        self.site_entry.insert(0, self.senha_atual.site)
-        if self.senha_atual.username:
-            self.username_entry.insert(0, self.senha_atual.username)
     
     def _toggle_mostrar_senha(self):
         if self.senha_entry.cget("show") == "":
@@ -180,16 +152,16 @@ class AlterarSenhaPopup(ctk.CTkToplevel):
             caracteres += string.punctuation
         
         if not caracteres:
-            self._mostrar_erro("Selecione pelo menos uma opção!")
+            self.master._mostrar_erro("Selecione pelo menos uma opção!")
             return
         
         try:
             tamanho = self.tamanho_var.get()
             if tamanho < 4:
-                self._mostrar_erro("O tamanho mínimo é 4!")
+                self.master._mostrar_erro("O tamanho mínimo é 4!")
                 return
         except:
-            self._mostrar_erro("Tamanho inválido!")
+            self.master._mostrar_erro("Tamanho inválido!")
             return
         
         senha = ''.join(secrets.choice(caracteres) for _ in range(tamanho))
@@ -200,65 +172,44 @@ class AlterarSenhaPopup(ctk.CTkToplevel):
         senha = self.senha_entry.get()
         if senha:
             pyperclip.copy(senha)
-            self._mostrar_sucesso("Senha copiada para a área de transferência!")
+            self.master._mostrar_sucesso("Senha copiada para a área de transferência!")
         else:
-            self._mostrar_erro("Nenhuma senha para copiar!")
+            self.master._mostrar_erro("Nenhuma senha para copiar!")
+    
+    def _preencher_dados_atuais(self):
+        self.site_entry.insert(0, self.senha.site)
+        if self.senha.username:
+            self.username_entry.insert(0, self.senha.username)
     
     def _salvar(self):
-        site = self.site_entry.get().strip()
-        username = self.username_entry.get().strip()
-        senha = self.senha_entry.get()
+        # Obtém os valores dos campos, mantendo os originais se não foram alterados
+        site = self.site_entry.get().strip() or self.senha.site
+        username = self.username_entry.get().strip() or self.senha.username
+        nova_senha = self.senha_entry.get() or self.senha.senha
         
-        if not site:
-            self._mostrar_erro("O nome do site é obrigatório!")
+        # Verifica se houve alguma alteração
+        if (site == self.senha.site and 
+            username == self.senha.username and 
+            nova_senha == self.senha.senha):
+            self.master._mostrar_erro("Nenhuma alteração foi feita!")
             return
         
-        # Se não houver alterações, mantém os valores atuais
-        if not senha:
-            senha = self.senha_atual.senha
+        # Validação básica
+        if not site:
+            self.master._mostrar_erro("O site é obrigatório!")
+            return
         
+        # Chama o controller para alterar a senha
         sucesso, mensagem = self.master.senha_controller.alterar_senha(
-            id=self.senha_atual.id,
+            id=self.senha.id,
             site=site,
-            senha=senha,
+            senha=nova_senha,
             username=username
         )
         
         if sucesso:
-            self._mostrar_sucesso(mensagem)
+            self.master._mostrar_sucesso(mensagem)
             self.master._atualizar_lista()
             self.destroy()
         else:
-            self._mostrar_erro(mensagem)
-    
-    def _mostrar_erro(self, mensagem):
-        erro = ctk.CTkToplevel(self)
-        erro.title("Erro")
-        erro.geometry("300x150")
-        
-        erro.update_idletasks()
-        x = (erro.winfo_screenwidth() - erro.winfo_width()) // 2
-        y = (erro.winfo_screenheight() - erro.winfo_height()) // 2
-        erro.geometry(f"+{x}+{y}")
-        
-        label = ctk.CTkLabel(erro, text=mensagem)
-        label.pack(pady=20)
-        
-        btn = ctk.CTkButton(erro, text="OK", command=erro.destroy)
-        btn.pack(pady=10)
-    
-    def _mostrar_sucesso(self, mensagem):
-        sucesso = ctk.CTkToplevel(self)
-        sucesso.title("Sucesso")
-        sucesso.geometry("300x150")
-        
-        sucesso.update_idletasks()
-        x = (sucesso.winfo_screenwidth() - sucesso.winfo_width()) // 2
-        y = (sucesso.winfo_screenheight() - sucesso.winfo_height()) // 2
-        sucesso.geometry(f"+{x}+{y}")
-        
-        label = ctk.CTkLabel(sucesso, text=mensagem)
-        label.pack(pady=20)
-        
-        btn = ctk.CTkButton(sucesso, text="OK", command=sucesso.destroy)
-        btn.pack(pady=10)
+            self.master._mostrar_erro(mensagem)

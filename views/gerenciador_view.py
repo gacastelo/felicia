@@ -6,15 +6,15 @@ from views.popups.backup import BackupPopup
 from controllers.senha_controller import SenhaController
 import pyperclip
 import logging
+from views.base_view import BaseView
+from views.popups.base_popup import BasePopup
 
-class GerenciadorView(ctk.CTkFrame):
+class GerenciadorView(BaseView):
     def __init__(self, master):
         super().__init__(master)
-        self.master = master
         self.senha_controller = SenhaController(self.master.auth_controller.usuario_atual.id)
         self.senhas_selecionadas = []
         self.logger = logging.getLogger('gerenciador_view')
-        self.pack(fill="both", expand=True)
         self._criar_widgets()
         self._atualizar_lista()
         
@@ -294,17 +294,7 @@ class GerenciadorView(ctk.CTkFrame):
         self.after(60000, self._verificar_sessao)
     
     def _mostrar_erro(self, mensagem):
-        erro = ctk.CTkToplevel(self)
-        erro.title("Erro")
-        erro.geometry("300x150")
-        erro.transient(self)  # Define a janela principal como pai
-        erro.grab_set()       # Força o foco na janela de erro
-        
-        # Centraliza a janela
-        erro.update_idletasks()
-        x = (erro.winfo_screenwidth() - erro.winfo_width()) // 2
-        y = (erro.winfo_screenheight() - erro.winfo_height()) // 2
-        erro.geometry(f"+{x}+{y}")
+        erro = BasePopup(self, "Erro", 300, 150)
         
         label = ctk.CTkLabel(erro, text=mensagem)
         label.pack(pady=20)
@@ -313,17 +303,7 @@ class GerenciadorView(ctk.CTkFrame):
         btn.pack(pady=10)
     
     def _mostrar_sucesso(self, mensagem):
-        sucesso = ctk.CTkToplevel(self)
-        sucesso.title("Sucesso")
-        sucesso.geometry("300x150")
-        sucesso.transient(self)  # Define a janela principal como pai
-        sucesso.grab_set()       # Força o foco na janela de sucesso
-        
-        # Centraliza a janela
-        sucesso.update_idletasks()
-        x = (sucesso.winfo_screenwidth() - sucesso.winfo_width()) // 2
-        y = (sucesso.winfo_screenheight() - sucesso.winfo_height()) // 2
-        sucesso.geometry(f"+{x}+{y}")
+        sucesso = BasePopup(self, "Sucesso", 300, 150)
         
         label = ctk.CTkLabel(sucesso, text=mensagem)
         label.pack(pady=20)

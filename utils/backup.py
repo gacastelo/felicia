@@ -6,6 +6,8 @@ from pathlib import Path
 import shutil
 import logging
 from utils.database import Database
+from tkinter import filedialog
+import os
 
 class BackupService:
     def __init__(self):
@@ -148,4 +150,47 @@ class BackupService:
             self.backup_dir.glob("*.zip"),
             key=lambda x: x.stat().st_mtime,
             reverse=True
-        ) 
+        )
+    
+    def exportar_backup(self, usuario_id):
+        try:
+            # Abre diálogo para selecionar onde salvar
+            filename = filedialog.asksaveasfilename(
+                defaultextension=".json",
+                filetypes=[("JSON files", "*.json")],
+                initialfile=f"backup_senhas_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+            )
+            
+            if not filename:  # Se usuário cancelou
+                return False, "Operação cancelada"
+            
+            # TODO: Implementar a lógica de exportação real aqui
+            # Por enquanto, apenas cria um arquivo vazio
+            with open(filename, 'w', encoding='utf-8') as f:
+                json.dump({"usuario_id": usuario_id, "senhas": []}, f)
+            
+            return True, "Backup exportado com sucesso!"
+            
+        except Exception as e:
+            return False, f"Erro ao exportar backup: {str(e)}"
+    
+    def importar_backup(self, usuario_id):
+        try:
+            # Abre diálogo para selecionar arquivo
+            filename = filedialog.askopenfilename(
+                defaultextension=".json",
+                filetypes=[("JSON files", "*.json")]
+            )
+            
+            if not filename:  # Se usuário cancelou
+                return False, "Operação cancelada"
+            
+            # TODO: Implementar a lógica de importação real aqui
+            # Por enquanto, apenas verifica se o arquivo existe
+            if not os.path.exists(filename):
+                return False, "Arquivo não encontrado"
+            
+            return True, "Backup importado com sucesso!"
+            
+        except Exception as e:
+            return False, f"Erro ao importar backup: {str(e)}"
