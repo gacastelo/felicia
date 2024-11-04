@@ -55,15 +55,15 @@ class GerenciadorView(BaseView):
         
         # Botões de ação
         botoes = [
-            ("Adicionar", self._abrir_adicionar, "#2E8B57"),        # Verde escuro
-            ("Remover", self._remover_senha, "#B22222"),            # Vermelho mais escuro
-            ("Alterar", self._abrir_alterar, "#3A506B"),            # Azul escuro
-            ("Atualizar", self._atualizar_lista, "#2C2C2E"),        # Cinza escuro
-            ("Copiar Senha", lambda: self._copiar_dado('senha'), "#2C2C2E"), # Cinza escuro
-            ("Copiar Usuário", lambda: self._copiar_dado('usuario'), "#2C2C2E"), # Cinza escuro
-            ("Backup", self._abrir_backup, "#2C2C2E"), # Cinza escuro            
-            ("Temas", self._abrir_temas, "#2C2C2E"), # Cinza escuro               
-            ("Voltar", self._voltar_login, "#8E7CC3")  # Cinza escuro 
+            ("Adicionar", self._abrir_adicionar, "#8E7CC3"),  # roxinho fofo
+            ("Remover", self._remover_senha, "#8E7CC3"),      # roxinho fofo
+            ("Alterar", self._abrir_alterar, "#8E7CC3"),      # roxinho fofo
+            ("Atualizar", self._atualizar_lista, "#8E7CC3"),  # roxinho fofo
+            ("Copiar Senha", lambda: self._copiar_dado('senha'), "#8E7CC3"),  # roxinho fofo
+            ("Copiar Usuário", lambda: self._copiar_dado('usuario'), "#8E7CC3"),  # roxinho fofo
+            ("Backup", self._abrir_backup, "#8E7CC3"),  # roxinho fofo           
+            ("Temas", self._abrir_temas, "#8E7CC3"),  # roxinho fofo              
+            ("Voltar", self._voltar_login, "#8E7CC3")  # roxinho fofo
         ]
         
         for texto, comando, cor in botoes:
@@ -72,7 +72,8 @@ class GerenciadorView(BaseView):
                 text=texto,
                 command=comando,
                 width=100,
-                fg_color=cor
+                fg_color=cor,
+                hover_color="#7667a3"  # roxinho fofo mais escuro
             )
             btn.pack(side="left", padx=5)
         
@@ -88,82 +89,87 @@ class GerenciadorView(BaseView):
         self.frame_lista.pack(fill="both", expand=True)
     
     def _criar_cabecalho(self):
-        frame_header = ctk.CTkFrame(self.frame_tabela)
-        frame_header.pack(fill="x", padx=5, pady=5)
+        frame_header = ctk.CTkFrame(self.frame_tabela, height=30)
+        frame_header.pack(fill="x", padx=5, pady=(5,0))
+        frame_header.pack_propagate(False)
         
-        # Cria três frames com proporções específicas
-        frame_site = ctk.CTkFrame(frame_header, fg_color="transparent")
-        frame_site.pack(side="left", fill="x", padx=2, expand=True, anchor="w")
+        # Frames com largura fixa e altura reduzida
+        frame_site = ctk.CTkFrame(frame_header, fg_color="transparent", width=200)
+        frame_site.pack(side="left", padx=2)
+        frame_site.pack_propagate(False)
         
-        frame_usuario = ctk.CTkFrame(frame_header, fg_color="transparent")
-        frame_usuario.pack(side="left", fill="x", padx=2, expand=True, anchor="w")
+        frame_usuario = ctk.CTkFrame(frame_header, fg_color="transparent", width=200)
+        frame_usuario.pack(side="left", padx=2)
+        frame_usuario.pack_propagate(False)
         
-        frame_data = ctk.CTkFrame(frame_header, fg_color="transparent")
-        frame_data.pack(side="right", fill="x", padx=2, expand=True, anchor="w")
+        frame_data = ctk.CTkFrame(frame_header, fg_color="transparent", width=200)
+        frame_data.pack(side="right", padx=2)
+        frame_data.pack_propagate(False)
         
-        # Labels alinhados à esquerda
+        # Labels com fonte menor
         ctk.CTkLabel(
             frame_site,
             text="Site",
             font=("Roboto", 12, "bold"),
-            anchor="w",
-            width=200  # Largura fixa
+            anchor="w"
         ).pack(side="left", padx=5)
         
         ctk.CTkLabel(
             frame_usuario,
             text="Usuário",
             font=("Roboto", 12, "bold"),
-            anchor="w",
-            width=200  # Largura fixa
+            anchor="w"
         ).pack(side="left", padx=5)
         
         ctk.CTkLabel(
             frame_data,
             text="Última Modificação",
             font=("Roboto", 12, "bold"),
-            anchor="w",
-            width=200  # Largura fixa
+            anchor="w"
         ).pack(side="left", padx=5)
     
     def _criar_item_senha(self, senha, frame):
-        frame_item = ctk.CTkFrame(frame)
-        frame_item.pack(fill="x", padx=5, pady=2)
+        frame_item = ctk.CTkFrame(frame, height=25)
+        frame_item.pack(fill="x", padx=5, pady=1)
+        frame_item.pack_propagate(False)
         
         # Site
-        frame_site = ctk.CTkFrame(frame_item, fg_color="transparent")
-        frame_site.pack(side="left", fill="x", padx=2, expand=True, anchor="w")
+        frame_site = ctk.CTkFrame(frame_item, fg_color="transparent", width=200)
+        frame_site.pack(side="left", padx=2)
+        frame_site.pack_propagate(False)
         
         label_site = ctk.CTkLabel(
             frame_site,
             text=senha.site,
             anchor="w",
-            width=200  # Mesma largura do cabeçalho
+            font=("Roboto", 11)
         )
         label_site.pack(side="left", padx=5)
         
         # Usuário
-        frame_usuario = ctk.CTkFrame(frame_item, fg_color="transparent")
-        frame_usuario.pack(side="left", fill="x", padx=2, expand=True, anchor="w")
+        frame_usuario = ctk.CTkFrame(frame_item, fg_color="transparent", width=200)
+        frame_usuario.pack(side="left", padx=2)
+        frame_usuario.pack_propagate(False)
         
         label_usuario = ctk.CTkLabel(
             frame_usuario,
             text=senha.username or "",
             anchor="w",
-            width=200  # Mesma largura do cabeçalho
+            font=("Roboto", 11)
         )
         label_usuario.pack(side="left", padx=5)
         
         # Data
-        frame_data = ctk.CTkFrame(frame_item, fg_color="transparent")
-        frame_data.pack(side="right", fill="x", padx=2, expand=True, anchor="w")
+        frame_data = ctk.CTkFrame(frame_item, fg_color="transparent", width=200)
+        frame_data.pack(side="right", padx=2)
+        frame_data.pack_propagate(False)
         
         data_formatada = self._formatar_data(senha.data_modificacao)
         label_data = ctk.CTkLabel(
             frame_data,
             text=data_formatada,
             anchor="w",
-            width=200  # Mesma largura do cabeçalho
+            font=("Roboto", 11)
         )
         label_data.pack(side="left", padx=5)
         
@@ -304,9 +310,20 @@ class GerenciadorView(BaseView):
     
     def _voltar_login(self):
         from views.login_view import LoginView
+        # Salva o estado da janela
+        is_zoomed = self.master.winfo_toplevel().state() == 'zoomed'
+        geometry = self.master.geometry()
+        
         self.master.auth_controller.logout()
         self.destroy()
         LoginView(self.master)
+        
+        # Restaura o estado anterior
+        if is_zoomed:
+            self.master.state('zoomed')
+        else:
+            self.master.state('normal')
+            self.master.geometry(geometry)
     
     def _verificar_sessao(self):
         """Verifica periodicamente se a sessão ainda está ativa"""

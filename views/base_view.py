@@ -3,34 +3,55 @@ import customtkinter as ctk
 class BaseView(ctk.CTkFrame):
     def __init__(self, master):
         super().__init__(master)
-        self.master = master
-        self.fullscreen = True
         self.pack(fill="both", expand=True)
-        self._configurar_tela_cheia()
+        
+        # Configura o tamanho mínimo antes de tentar fullscreen
+        self.master.minsize(800, 600)
+        
+        # Obtém as dimensões da tela
+        largura_tela = self.master.winfo_screenwidth()
+        altura_tela = self.master.winfo_screenheight()
+        
+        # Configura o tamanho máximo como o tamanho da tela
+        self.master.maxsize(largura_tela, altura_tela)
+        
+        # Primeiro maximiza a janela
+        self.master.state('zoomed')
+        
+        # Adiciona os binds de teclado
         self.master.bind("<F11>", self._alternar_tela_cheia)
         self.master.bind("<Escape>", self._sair_tela_cheia)
         
+        # Variável para controlar o estado do fullscreen
+        self.fullscreen = False
+        
+        # Agenda a configuração do fullscreen para depois que a janela estiver pronta
+        self.after(200, self._configurar_tela_cheia)
+    
     def _configurar_tela_cheia(self):
-        if self.fullscreen:
-            self.master.overrideredirect(False)  # Primeiro remove o override
-            self.master.attributes("-fullscreen", True)  # Depois ativa fullscreen
-        else:
-            self.master.attributes("-fullscreen", False)
-            self.master.overrideredirect(False)
-            # Centraliza a janela quando sair do modo tela cheia
-            largura_tela = self.master.winfo_screenwidth()
-            altura_tela = self.master.winfo_screenheight()
-            largura_janela = int(largura_tela * 0.8)
-            altura_janela = int(altura_tela * 0.8)
-            x = (largura_tela - largura_janela) // 2
-            y = (altura_tela - altura_janela) // 2
-            self.master.geometry(f"{largura_janela}x{altura_janela}+{x}+{y}")
+        try:
+            # Garante que a janela está maximizada antes de tentar fullscreen
+            if self.master.state() != 'zoomed':
+                self.master.state('zoomed')
+            
+            # Aplica o fullscreen
+            self.master.attributes("-fullscreen", True)
+            self.fullscreen = True
+            
+        except Exception as e:
+            print(f"Erro ao configurar tela cheia: {e}")
+            # Se falhar o fullscreen, pelo menos mantém maximizado
+            self.master.state('zoomed')
     
     def _alternar_tela_cheia(self, event=None):
+        """Alterna entre modo tela cheia e normal"""
         self.fullscreen = not self.fullscreen
-        self._configurar_tela_cheia()
+        self.master.attributes("-fullscreen", self.fullscreen)
+        return "break"  # Impede que o evento se propague
     
     def _sair_tela_cheia(self, event=None):
+        """Sai do modo tela cheia"""
         if self.fullscreen:
             self.fullscreen = False
-            self._configurar_tela_cheia() 
+            self.master.attributes("-fullscreen", False)
+        return "break"  # Impede que o evento se propague

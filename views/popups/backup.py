@@ -7,18 +7,54 @@ class BackupPopup(BasePopup):
         self._criar_widgets()
     
     def _criar_widgets(self):
-        # Frame principal
-        frame = ctk.CTkFrame(self)
-        frame.pack(padx=20, pady=20, fill="both", expand=True)
+        # Frame principal com fundo transparente
+        frame_principal = ctk.CTkFrame(self, fg_color="transparent")
+        frame_principal.pack(fill="both", expand=True, padx=20, pady=20)
+        
+        # Título
+        titulo = ctk.CTkLabel(
+            frame_principal,
+            text="Backup e Restauração",
+            font=("Roboto", 20, "bold")
+        )
+        titulo.pack(pady=(0, 20))
+        
+        # Frame para botões com fundo transparente
+        frame_botoes = ctk.CTkFrame(frame_principal, fg_color="transparent")
+        frame_botoes.pack(fill="both", expand=True)
         
         # Botões
-        btn_exportar = ctk.CTkButton(frame, text="Exportar Backup", command=self._exportar)
+        btn_exportar = ctk.CTkButton(
+            frame_botoes, 
+            text="Exportar Backup", 
+            command=self._exportar,
+            width=200,
+            height=40,
+            fg_color="#8E7CC3",  # roxinho fofo
+            hover_color="#7667a3"  # roxinho fofo mais escuro
+        )
         btn_exportar.pack(pady=10)
         
-        btn_importar = ctk.CTkButton(frame, text="Importar Backup", command=self._importar)
+        btn_importar = ctk.CTkButton(
+            frame_botoes, 
+            text="Importar Backup", 
+            command=self._importar,
+            width=200,
+            height=40,
+            fg_color="#8E7CC3",  # roxinho fofo
+            hover_color="#7667a3"  # roxinho fofo mais escuro
+        )
         btn_importar.pack(pady=10)
         
-        btn_fechar = ctk.CTkButton(frame, text="Fechar", command=self.destroy)
+        btn_fechar = ctk.CTkButton(
+            frame_botoes, 
+            text="Fechar", 
+            command=self.destroy,
+            width=200,
+            height=40,
+            fg_color="#8E7CC3",  # roxinho fofo
+            hover_color="#7667a3"  # roxinho fofo mais escuro
+        )
         btn_fechar.pack(pady=10)
     
     def _exportar(self):

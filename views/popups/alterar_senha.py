@@ -1,10 +1,10 @@
-from views.popups.base_popup import BasePopup
+from views.popups.base_senha_popup import BaseSenhaPopup
 import customtkinter as ctk
 import string
 import secrets
 import pyperclip
 
-class AlterarSenhaPopup(BasePopup):
+class AlterarSenhaPopup(BaseSenhaPopup):
     def __init__(self, master, senha):
         super().__init__(master, "Alterar Senha", largura=600, altura=500)
         self.senha = senha
@@ -13,65 +13,84 @@ class AlterarSenhaPopup(BasePopup):
     
     def _criar_widgets(self):
         # Frame principal
-        frame_principal = ctk.CTkFrame(self)
-        frame_principal.pack(fill="both", expand=True, padx=20, pady=20)
+        frame_principal = ctk.CTkFrame(self, fg_color="transparent")
+        frame_principal.pack(fill="both", expand=True, 
+                           padx=int(20 * self.escala), 
+                           pady=int(20 * self.escala))
         
         # Título
         titulo = ctk.CTkLabel(
             frame_principal,
             text="Alterar Senha",
-            font=("Roboto", 20, "bold")
+            font=("Roboto", int(20 * self.escala), "bold")
         )
-        titulo.pack(pady=10)
+        titulo.pack(pady=int(10 * self.escala))
         
         # Campo para site
         self.site_entry = ctk.CTkEntry(
             frame_principal,
             placeholder_text="Nome do site",
-            width=300
+            width=int(300 * self.escala),
+            height=int(35 * self.escala),
+            font=("Roboto", int(12 * self.escala))
         )
-        self.site_entry.pack(pady=10)
+        self.site_entry.pack(pady=int(10 * self.escala))
         
         # Campo para usuário
         self.username_entry = ctk.CTkEntry(
             frame_principal,
             placeholder_text="Nome de usuário (opcional)",
-            width=300
+            width=int(300 * self.escala),
+            height=int(35 * self.escala),
+            font=("Roboto", int(12 * self.escala))
         )
-        self.username_entry.pack(pady=10)
+        self.username_entry.pack(pady=int(10 * self.escala))
         
-        # Frame para senha
-        frame_senha = ctk.CTkFrame(frame_principal)
-        frame_senha.pack(fill="x", pady=10)
+        # Frame para senha (agora centralizado)
+        frame_senha = ctk.CTkFrame(frame_principal, fg_color="transparent")
+        frame_senha.pack(pady=int(10 * self.escala))
         
-        # Campo para senha
+        # Container para manter os elementos alinhados
+        senha_container = ctk.CTkFrame(frame_senha, fg_color="transparent")
+        senha_container.pack(expand=True)
+        
         self.senha_entry = ctk.CTkEntry(
-            frame_senha,
+            senha_container,
             placeholder_text="Nova senha",
             show="•",
-            width=240
+            width=int(240 * self.escala),
+            height=int(35 * self.escala),
+            font=("Roboto", int(12 * self.escala))
         )
-        self.senha_entry.pack(side="left", padx=5)
+        self.senha_entry.pack(side="left")
         
         # Botões de senha
         btn_mostrar = ctk.CTkButton(
-            frame_senha,
+            senha_container,
             text="👁",
-            width=30,
-            command=self._toggle_mostrar_senha
+            width=int(30 * self.escala),
+            height=int(35 * self.escala),
+            command=self._toggle_mostrar_senha,
+            fg_color="#8E7CC3",  # roxinho fofo
+            hover_color="#7667a3",  # roxinho fofo mais escuro
+            font=("Roboto", int(12 * self.escala))
         )
-        btn_mostrar.pack(side="left", padx=2)
+        btn_mostrar.pack(side="left", padx=int(2 * self.escala))
         
         btn_gerar = ctk.CTkButton(
-            frame_senha,
+            senha_container,
             text="Gerar",
-            width=60,
-            command=self._gerar_senha
+            width=int(60 * self.escala),
+            height=int(35 * self.escala),
+            command=self._gerar_senha,
+            fg_color="#8E7CC3",  # roxinho fofo
+            hover_color="#7667a3",  # roxinho fofo mais escuro
+            font=("Roboto", int(12 * self.escala))
         )
-        btn_gerar.pack(side="left", padx=2)
+        btn_gerar.pack(side="left", padx=int(2 * self.escala))
         
         # Opções de geração de senha
-        frame_opcoes = ctk.CTkFrame(frame_principal)
+        frame_opcoes = ctk.CTkFrame(frame_principal, fg_color="transparent")
         frame_opcoes.pack(fill="x", pady=10)
         
         # Tamanho da senha
@@ -87,7 +106,7 @@ class AlterarSenhaPopup(BasePopup):
         self.tamanho_entry.pack(side="left", padx=5)
         
         # Checkboxes
-        frame_checks = ctk.CTkFrame(frame_principal)
+        frame_checks = ctk.CTkFrame(frame_principal, fg_color="transparent")
         frame_checks.pack(fill="x", pady=10)
         
         self.maiusculas_var = ctk.BooleanVar(value=True)
@@ -106,15 +125,17 @@ class AlterarSenhaPopup(BasePopup):
             check = ctk.CTkCheckBox(frame_checks, text=texto, variable=var)
             check.pack(side="left", padx=5)
         
-        # Botões de ação - Agora em um frame separado no final
-        frame_botoes = ctk.CTkFrame(self)  # Filho direto do self
+        # Botões de ação
+        frame_botoes = ctk.CTkFrame(self, fg_color="transparent")
         frame_botoes.pack(side="bottom", pady=20)
         
         btn_salvar = ctk.CTkButton(
             frame_botoes,
             text="Salvar",
             command=self._salvar,
-            width=100
+            width=100,
+            fg_color="#8E7CC3",  # roxinho fofo
+            hover_color="#7667a3"  # roxinho fofo mais escuro
         )
         btn_salvar.pack(side="left", padx=5)
         
@@ -122,7 +143,9 @@ class AlterarSenhaPopup(BasePopup):
             frame_botoes,
             text="Cancelar",
             command=self.destroy,
-            width=100
+            width=100,
+            fg_color="#8E7CC3",  # roxinho fofo
+            hover_color="#7667a3"  # roxinho fofo mais escuro
         )
         btn_cancelar.pack(side="left", padx=5)
         
@@ -130,7 +153,9 @@ class AlterarSenhaPopup(BasePopup):
             frame_botoes,
             text="Copiar",
             command=self._copiar_senha,
-            width=100
+            width=100,
+            fg_color="#8E7CC3",  # roxinho fofo
+            hover_color="#7667a3"  # roxinho fofo mais escuro
         )
         btn_copiar.pack(side="left", padx=5)
     

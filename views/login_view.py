@@ -54,7 +54,9 @@ class LoginView(BaseView):
         btn_login = ctk.CTkButton(
             frame_botoes,
             text="Entrar",
-            command=self._fazer_login
+            command=self._fazer_login,
+            fg_color="#8E7CC3",  # roxinho fofo
+            hover_color="#7667a3"  # roxinho fofo mais escuro
         )
         btn_login.pack(side="left", padx=5)
         
@@ -62,7 +64,9 @@ class LoginView(BaseView):
         btn_cadastro = ctk.CTkButton(
             frame_botoes,
             text="Cadastrar",
-            command=self._abrir_cadastro
+            command=self._abrir_cadastro,
+            fg_color="#8E7CC3",  # roxinho fofo
+            hover_color="#7667a3"  # roxinho fofo mais escuro
         )
         btn_cadastro.pack(side="left", padx=5)
         
@@ -70,7 +74,9 @@ class LoginView(BaseView):
         btn_sair = ctk.CTkButton(
             frame_botoes,
             text="Sair",
-            command=self.master.quit
+            command=self.master.destroy,
+            fg_color="#8E7CC3",  # roxinho fofo
+            hover_color="#7667a3"  # roxinho fofo mais escuro
         )
         btn_sair.pack(side="left", padx=5)
         
@@ -96,13 +102,35 @@ class LoginView(BaseView):
     
     def _abrir_cadastro(self):
         from views.cadastro_view import CadastroView
+        # Salva o estado da janela
+        is_zoomed = self.master.winfo_toplevel().state() == 'zoomed'
+        geometry = self.master.geometry()
+        
         self.destroy()
         CadastroView(self.master)
+        
+        # Restaura o estado anterior
+        if is_zoomed:
+            self.master.state('zoomed')
+        else:
+            self.master.state('normal')
+            self.master.geometry(geometry)
     
     def _abrir_gerenciador(self):
         from views.gerenciador_view import GerenciadorView
+        # Salva o estado da janela
+        is_zoomed = self.master.winfo_toplevel().state() == 'zoomed'
+        geometry = self.master.geometry()
+        
         self.destroy()
         GerenciadorView(self.master)
+        
+        # Restaura o estado anterior
+        if is_zoomed:
+            self.master.state('zoomed')
+        else:
+            self.master.state('normal')
+            self.master.geometry(geometry)
     
     def _mostrar_erro(self, mensagem):
         MensagemPopup(self, "Erro", mensagem)

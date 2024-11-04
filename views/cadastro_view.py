@@ -105,7 +105,9 @@ class CadastroView(ctk.CTkFrame):
         btn_cadastrar = ctk.CTkButton(
             frame_botoes,
             text="Cadastrar",
-            command=self._fazer_cadastro
+            command=self._fazer_cadastro,
+            fg_color="#8E7CC3",  # roxinho fofo
+            hover_color="#7667a3"  # roxinho fofo mais escuro
         )
         btn_cadastrar.pack(side="left", padx=5)
         
@@ -113,7 +115,9 @@ class CadastroView(ctk.CTkFrame):
         btn_voltar = ctk.CTkButton(
             frame_botoes,
             text="Voltar",
-            command=self._voltar_login
+            command=self._voltar_login,
+            fg_color="#8E7CC3",  # roxinho fofo
+            hover_color="#7667a3"  # roxinho fofo mais escuro
         )
         btn_voltar.pack(side="left", padx=5)
         
@@ -193,8 +197,19 @@ class CadastroView(ctk.CTkFrame):
     
     def _voltar_login(self):
         from views.login_view import LoginView
+        # Salva o estado da janela
+        is_zoomed = self.master.winfo_toplevel().state() == 'zoomed'
+        geometry = self.master.geometry()
+        
         self.destroy()
         LoginView(self.master)
+        
+        # Restaura o estado anterior
+        if is_zoomed:
+            self.master.state('zoomed')
+        else:
+            self.master.state('normal')
+            self.master.geometry(geometry)
     
     def _mostrar_erro(self, mensagem):
         from views.popups.mensagem_popup import MensagemPopup

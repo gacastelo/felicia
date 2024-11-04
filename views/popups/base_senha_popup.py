@@ -1,6 +1,6 @@
 import customtkinter as ctk
 
-class BasePopup(ctk.CTkToplevel):
+class BaseSenhaPopup(ctk.CTkToplevel):
     def __init__(self, master, titulo="", largura=600, altura=500):
         super().__init__(master)
         
