@@ -1,7 +1,7 @@
 # Felichia Password Manager
 
 <p align="center">
-  <img src="felichia/src/assets/felichia_logo.png" alt="Felichia Logo" width="200"/>
+  <img src="felichia/src/assets/felichia_logo.png" alt="Felichia Logo" width="600"/>
 </p>
 
 ## 📋 Sobre
