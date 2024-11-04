@@ -386,3 +386,100 @@
 2024-11-04 12:41:56,851 - gerenciador_view - INFO - Usuario copiado para área de transferência
 2024-11-04 12:41:58,279 - gerenciador_view - INFO - Senha copiado para área de transferência
 2024-11-04 12:42:03,388 - auth_controller - INFO - Logout realizado: Jana
+2024-11-04 12:53:13,286 - root - ERROR - Erro ao carregar ícone: couldn't open "assets/icones/felichia.png": no such file or directory
+2024-11-04 12:53:13,288 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 12:53:13,289 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 12:53:35,893 - usuario_model - INFO - Usuário atualizado: Jana
+2024-11-04 12:53:35,894 - auth_controller - INFO - Login bem sucedido: Jana
+2024-11-04 12:53:36,063 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:53:36,063 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:53:36,075 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 12:55:12,517 - root - ERROR - Erro ao carregar ícone: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\assets\icones\felichia.ico" not defined
+2024-11-04 12:55:12,519 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 12:55:12,520 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 12:56:49,722 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 12:56:49,724 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 12:57:58,964 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 12:57:58,965 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 12:58:11,063 - usuario_model - INFO - Usuário atualizado: Jana
+2024-11-04 12:58:11,065 - auth_controller - INFO - Login bem sucedido: Jana
+2024-11-04 12:58:11,216 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:58:11,216 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:58:11,229 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 12:58:22,040 - auth_controller - INFO - Logout realizado: Jana
+2024-11-04 12:59:48,162 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 12:59:48,163 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 13:00:55,511 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 13:00:55,512 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 13:02:32,333 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 13:02:32,334 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 13:02:52,922 - usuario_model - INFO - Usuário atualizado: Jana
+2024-11-04 13:02:52,924 - auth_controller - INFO - Login bem sucedido: Jana
+2024-11-04 13:02:53,073 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 13:02:53,073 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 13:02:53,085 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 13:02:56,073 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 13:02:56,073 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 13:02:56,091 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 13:03:06,227 - auth_controller - INFO - Logout realizado: Jana
+2024-11-04 13:03:46,569 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 13:03:46,570 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 13:04:00,942 - usuario_model - INFO - Usuário atualizado: Jana
+2024-11-04 13:04:00,944 - auth_controller - INFO - Login bem sucedido: Jana
+2024-11-04 13:04:01,099 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 13:04:01,099 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 13:04:01,110 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 13:04:10,405 - auth_controller - INFO - Logout realizado: Jana
+2024-11-04 13:05:43,273 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 13:05:43,274 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 13:05:48,580 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\assets\icones\felichia.ico" not defined
+2024-11-04 13:05:50,157 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\assets\icones\felichia.ico" not defined
+2024-11-04 13:05:51,500 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\assets\icones\felichia.ico" not defined
+2024-11-04 13:06:09,878 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 13:06:09,879 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 13:06:15,231 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\assets\icones\felichia.ico" not defined
+2024-11-04 13:06:15,232 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\assets\icones\felichia.ico" not defined
+2024-11-04 13:06:17,944 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\assets\icones\felichia.ico" not defined
+2024-11-04 13:06:17,945 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\assets\icones\felichia.ico" not defined
+2024-11-04 13:06:19,714 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\assets\icones\felichia.ico" not defined
+2024-11-04 13:06:19,715 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\assets\icones\felichia.ico" not defined
+2024-11-04 13:06:46,386 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 13:06:46,387 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 13:06:51,791 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:06:51,792 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:08:33,151 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 13:08:33,153 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 13:08:39,010 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:08:40,339 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:08:40,895 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:08:41,077 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:08:41,250 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:08:41,411 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:08:41,590 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:08:56,982 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 13:08:56,983 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 13:09:02,092 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:09:02,093 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:09:11,801 - usuario_model - INFO - Usuário atualizado: Jana
+2024-11-04 13:09:11,803 - auth_controller - INFO - Login bem sucedido: Jana
+2024-11-04 13:09:11,954 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 13:09:11,954 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 13:09:11,965 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 13:09:14,723 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 13:09:14,724 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 13:09:14,742 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 13:09:15,624 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:09:15,625 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:09:17,352 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:09:17,353 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\IA\views\popups\assets\icones\felichia.ico" not defined
+2024-11-04 13:09:19,266 - auth_controller - INFO - Logout realizado: Jana
+2024-11-04 13:09:52,335 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 13:09:52,336 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 13:11:05,482 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 13:11:05,483 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 13:21:07,205 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 13:21:07,206 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 13:28:28,064 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 13:28:28,066 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 13:34:45,206 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 13:34:45,207 - database - INFO - Tabelas criadas/verificadas com sucesso
