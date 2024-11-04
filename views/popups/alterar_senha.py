@@ -182,10 +182,18 @@ class AlterarSenhaPopup(BasePopup):
             self.username_entry.insert(0, self.senha.username)
     
     def _salvar(self):
-        # Obtém os valores dos campos, mantendo os originais se não foram alterados
-        site = self.site_entry.get().strip() or self.senha.site
-        username = self.username_entry.get().strip() or self.senha.username
-        nova_senha = self.senha_entry.get() or self.senha.senha
+        # Obtém os valores dos campos
+        site = self.site_entry.get().strip()
+        username = self.username_entry.get().strip()
+        nova_senha = self.senha_entry.get()
+        
+        # Se campo estiver vazio, mantém valor original
+        if not site:
+            site = self.senha.site
+        if not username:
+            username = self.senha.username
+        if not nova_senha:
+            nova_senha = self.senha.senha
         
         # Verifica se houve alguma alteração
         if (site == self.senha.site and 

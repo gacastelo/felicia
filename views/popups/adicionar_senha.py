@@ -177,10 +177,16 @@ class AdicionarSenhaPopup(BasePopup):
         username = self.username_entry.get().strip()
         senha = self.senha_entry.get()
         
-        if not site or not senha:
-            self.master._mostrar_erro("Site e senha são obrigatórios!")
+        # Validação básica
+        if not site:
+            self.master._mostrar_erro("O site é obrigatório!")
+            return
+            
+        if not senha:
+            self.master._mostrar_erro("A senha é obrigatória!")
             return
         
+        # Chama o controller para adicionar a senha
         sucesso, mensagem = self.master.senha_controller.adicionar_senha(
             site=site,
             senha=senha,
