@@ -115,15 +115,10 @@ class TrocarTemaPopup(BasePopup):
     def _fechar(self):
         """Método seguro para fechar o popup"""
         try:
-            # Desabilita todos os botões antes de fechar
+            # Remove todos os binds antes de destruir
             for widget in self.winfo_children():
-                if isinstance(widget, ctk.CTkButton):
-                    widget.configure(state="disabled")
-            
-            # Remove o foco do popup
-            self.grab_release()
-            
-            # Destrói o popup
+                for bind in widget.bind():
+                    widget.unbind(bind)
             self.destroy()
         except Exception as e:
             print(f"Erro ao fechar popup: {e}")

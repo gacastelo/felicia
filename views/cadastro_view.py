@@ -5,6 +5,7 @@ class CadastroView(ctk.CTkFrame):
     def __init__(self, master):
         super().__init__(master)
         self.master = master
+        self.master.title("Felichia - Cadastro")
         self.pack(fill="both", expand=True)
         self._criar_widgets()
     

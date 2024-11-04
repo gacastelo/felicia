@@ -43,26 +43,23 @@ class AdicionarSenhaPopup(BaseSenhaPopup):
         )
         self.username_entry.pack(pady=int(10 * self.escala))
         
-        # Frame para senha (agora centralizado)
+        # Frame para senha
         frame_senha = ctk.CTkFrame(frame_principal, fg_color="transparent")
-        frame_senha.pack(pady=int(10 * self.escala))
-        
-        # Container para manter os elementos alinhados
-        senha_container = ctk.CTkFrame(frame_senha, fg_color="transparent")
-        senha_container.pack(expand=True)
+        frame_senha.pack(fill="x", pady=int(10 * self.escala))
         
         self.senha_entry = ctk.CTkEntry(
-            senha_container,
+            frame_senha,
             placeholder_text="Senha",
             show="•",
             width=int(240 * self.escala),
             height=int(35 * self.escala),
             font=("Roboto", int(12 * self.escala))
         )
-        self.senha_entry.pack(side="left")
+        self.senha_entry.pack(side="left", padx=int(5 * self.escala))
         
+        # Botões de senha
         btn_mostrar = ctk.CTkButton(
-            senha_container,
+            frame_senha,
             text="👁",
             width=int(30 * self.escala),
             height=int(35 * self.escala),
@@ -74,7 +71,7 @@ class AdicionarSenhaPopup(BaseSenhaPopup):
         btn_mostrar.pack(side="left", padx=int(2 * self.escala))
         
         btn_gerar = ctk.CTkButton(
-            senha_container,
+            frame_senha,
             text="Gerar",
             width=int(60 * self.escala),
             height=int(35 * self.escala),

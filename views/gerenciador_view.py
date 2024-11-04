@@ -17,6 +17,8 @@ class GerenciadorView(BaseView):
         self.senhas_selecionadas = []
         self.logger = logging.getLogger('gerenciador_view')
         self.popup_atual = None
+        # Atualiza o título da janela
+        self.master.title("Felichia - Gerenciamento de Senhas")
         self._criar_widgets()
         self._atualizar_lista()
         
@@ -25,7 +27,7 @@ class GerenciadorView(BaseView):
     
     def _criar_widgets(self):
         # Frame superior para título e pesquisa
-        frame_superior = ctk.CTkFrame(self)
+        frame_superior = ctk.CTkFrame(self, fg_color="transparent")
         frame_superior.pack(fill="x", padx=20, pady=10)
         
         # Título
@@ -33,24 +35,28 @@ class GerenciadorView(BaseView):
             frame_superior,
             text="GERENCIAMENTO DE SENHAS",
             font=("Roboto", 24, "bold")
+            
         )
         titulo.pack(side="left", pady=10)
         
         # Frame de pesquisa
-        frame_pesquisa = ctk.CTkFrame(self)
+        frame_pesquisa = ctk.CTkFrame(self, fg_color="transparent")
         frame_pesquisa.pack(fill="x", padx=20, pady=5)
         
         # Campo de pesquisa
         self.pesquisa_entry = ctk.CTkEntry(
             frame_pesquisa,
             placeholder_text="Pesquisar por site ou usuário...",
-            width=300
+            width=300,
+            placeholder_text_color="#8E7CC3",  # Roxo suave para o placeholder
+            text_color="#8E7CC3",  # Mesma cor para o texto digitado
+            border_color="#8E7CC3"  # Opcional: borda também na mesma cor
         )
         self.pesquisa_entry.pack(side="left", padx=5)
         self.pesquisa_entry.bind("<KeyRelease>", self._filtrar_senhas)
         
         # Frame para botões de ação
-        frame_acoes = ctk.CTkFrame(self)
+        frame_acoes = ctk.CTkFrame(self, fg_color="transparent")
         frame_acoes.pack(fill="x", padx=20, pady=5)
         
         # Botões de ação
@@ -89,7 +95,7 @@ class GerenciadorView(BaseView):
         self.frame_lista.pack(fill="both", expand=True)
     
     def _criar_cabecalho(self):
-        frame_header = ctk.CTkFrame(self.frame_tabela, height=30)
+        frame_header = ctk.CTkFrame(self.frame_tabela, height=30, fg_color="transparent")
         frame_header.pack(fill="x", padx=5, pady=(5,0))
         frame_header.pack_propagate(False)
         

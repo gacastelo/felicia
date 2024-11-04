@@ -258,3 +258,131 @@
 2024-11-04 12:19:44,016 - senha_controller - INFO - Senhas listadas com sucesso
 2024-11-04 12:19:44,025 - gerenciador_view - INFO - Lista atualizada com 1 senhas
 2024-11-04 12:20:21,109 - auth_controller - INFO - Logout realizado: Jana
+2024-11-04 12:24:17,049 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 12:24:17,050 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 12:24:27,138 - usuario_model - INFO - Usuário atualizado: Jana
+2024-11-04 12:24:27,141 - auth_controller - INFO - Login bem sucedido: Jana
+2024-11-04 12:24:27,288 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:24:27,289 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:24:27,301 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 12:27:16,755 - auth_controller - INFO - Logout realizado: Jana
+2024-11-04 12:27:22,078 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 12:27:22,079 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 12:27:35,605 - usuario_model - INFO - Usuário atualizado: Jana
+2024-11-04 12:27:35,608 - auth_controller - INFO - Login bem sucedido: Jana
+2024-11-04 12:27:35,753 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:27:35,753 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:27:35,766 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 12:27:48,833 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 12:27:48,834 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 12:28:28,467 - usuario_model - INFO - Usuário atualizado: Jana
+2024-11-04 12:28:28,469 - auth_controller - INFO - Login bem sucedido: Jana
+2024-11-04 12:28:28,625 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:28:28,626 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:28:28,639 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 12:28:36,496 - auth_controller - INFO - Logout realizado: Jana
+2024-11-04 12:29:14,556 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 12:29:14,558 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 12:29:24,740 - usuario_model - INFO - Usuário atualizado: Jana
+2024-11-04 12:29:24,741 - auth_controller - INFO - Login bem sucedido: Jana
+2024-11-04 12:29:24,890 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:29:24,890 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:29:24,902 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 12:30:20,116 - auth_controller - INFO - Logout realizado: Jana
+2024-11-04 12:30:26,662 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 12:30:26,663 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 12:31:13,384 - usuario_model - INFO - Usuário atualizado: Jana
+2024-11-04 12:31:13,386 - auth_controller - INFO - Login bem sucedido: Jana
+2024-11-04 12:31:13,532 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:31:13,532 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:31:13,544 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 12:33:18,920 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:33:18,920 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:33:20,113 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:33:20,113 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:33:21,512 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:33:21,512 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:33:21,761 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:33:21,761 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:35:35,603 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 12:35:35,604 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 12:35:54,296 - usuario_model - INFO - Usuário atualizado: Jana
+2024-11-04 12:35:54,298 - auth_controller - INFO - Login bem sucedido: Jana
+2024-11-04 12:35:54,450 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:35:54,450 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:35:54,462 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 12:35:55,626 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:35:55,626 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:35:57,314 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:35:57,314 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:35:57,474 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:35:57,474 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:35:58,185 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:35:58,185 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:35:58,210 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:35:58,210 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:35:58,346 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:35:58,346 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:35:58,474 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:35:58,474 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:35:58,563 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:35:58,563 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:04,123 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:04,123 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:04,276 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:04,276 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:04,419 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:04,419 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:04,555 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:04,555 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:04,676 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:04,677 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:05,282 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:05,283 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:05,482 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:05,483 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:05,587 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:05,587 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:05,709 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:05,709 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:06,282 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:06,282 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:06,443 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:06,443 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:06,594 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:06,595 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:06,707 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:06,707 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:06,843 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:06,843 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:06,946 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:06,947 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:16,731 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:16,731 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:18,565 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:18,565 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:19,315 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:19,315 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:24,866 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:24,866 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:24,892 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:24,892 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:36:24,917 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:36:24,917 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:39:48,817 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 12:39:48,818 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 12:40:02,467 - usuario_model - INFO - Usuário atualizado: Jana
+2024-11-04 12:40:02,469 - auth_controller - INFO - Login bem sucedido: Jana
+2024-11-04 12:40:02,641 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:40:02,641 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:40:02,654 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 12:41:39,458 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-04 12:41:39,459 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-04 12:41:47,508 - usuario_model - INFO - Usuário atualizado: Jana
+2024-11-04 12:41:47,510 - auth_controller - INFO - Login bem sucedido: Jana
+2024-11-04 12:41:47,687 - criptografia - INFO - Chave de criptografia carregada
+2024-11-04 12:41:47,687 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-04 12:41:47,699 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-04 12:41:56,851 - gerenciador_view - INFO - Usuario copiado para área de transferência
+2024-11-04 12:41:58,279 - gerenciador_view - INFO - Senha copiado para área de transferência
+2024-11-04 12:42:03,388 - auth_controller - INFO - Logout realizado: Jana

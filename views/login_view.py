@@ -6,6 +6,7 @@ from views.popups.mensagem_popup import MensagemPopup
 class LoginView(BaseView):
     def __init__(self, master):
         super().__init__(master)
+        self.master.title("Felichia - Login")
         self._criar_widgets()
     
     def _criar_widgets(self):

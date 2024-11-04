@@ -19,7 +19,6 @@ class App(ctk.CTk):
         # Configurações iniciais da janela
         self.title("Gerenciador de Senhas")
         self.geometry("800x600")
-        
         # Carrega configurações salvas ou usa padrões
         self.carregar_configuracoes()
         

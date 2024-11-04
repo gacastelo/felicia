@@ -22,72 +22,59 @@ class AlterarSenhaPopup(BaseSenhaPopup):
         titulo = ctk.CTkLabel(
             frame_principal,
             text="Alterar Senha",
-            font=("Roboto", int(20 * self.escala), "bold")
+            font=("Roboto", 20, "bold")
         )
-        titulo.pack(pady=int(10 * self.escala))
+        titulo.pack(pady=10)
         
         # Campo para site
         self.site_entry = ctk.CTkEntry(
             frame_principal,
             placeholder_text="Nome do site",
-            width=int(300 * self.escala),
-            height=int(35 * self.escala),
-            font=("Roboto", int(12 * self.escala))
+            width=300
         )
-        self.site_entry.pack(pady=int(10 * self.escala))
+        self.site_entry.pack(pady=10)
         
         # Campo para usuário
         self.username_entry = ctk.CTkEntry(
             frame_principal,
             placeholder_text="Nome de usuário (opcional)",
-            width=int(300 * self.escala),
-            height=int(35 * self.escala),
-            font=("Roboto", int(12 * self.escala))
+            width=300
         )
-        self.username_entry.pack(pady=int(10 * self.escala))
+        self.username_entry.pack(pady=10)
         
-        # Frame para senha (agora centralizado)
+        # Frame para senha
         frame_senha = ctk.CTkFrame(frame_principal, fg_color="transparent")
-        frame_senha.pack(pady=int(10 * self.escala))
+        frame_senha.pack(fill="x", pady=10)
         
-        # Container para manter os elementos alinhados
-        senha_container = ctk.CTkFrame(frame_senha, fg_color="transparent")
-        senha_container.pack(expand=True)
-        
+        # Campo para senha
         self.senha_entry = ctk.CTkEntry(
-            senha_container,
+            frame_senha,
             placeholder_text="Nova senha",
             show="•",
-            width=int(240 * self.escala),
-            height=int(35 * self.escala),
-            font=("Roboto", int(12 * self.escala))
+            width=240
         )
-        self.senha_entry.pack(side="left")
+        self.senha_entry.pack(side="left", padx=5)
         
         # Botões de senha
         btn_mostrar = ctk.CTkButton(
-            senha_container,
+            frame_senha,
             text="👁",
-            width=int(30 * self.escala),
-            height=int(35 * self.escala),
+            width=30,
             command=self._toggle_mostrar_senha,
             fg_color="#8E7CC3",  # roxinho fofo
-            hover_color="#7667a3",  # roxinho fofo mais escuro
-            font=("Roboto", int(12 * self.escala))
+            hover_color="#7667a3"  # roxinho fofo mais escuro
         )
-        btn_mostrar.pack(side="left", padx=int(2 * self.escala))
+        btn_mostrar.pack(side="left", padx=2)
         
         btn_gerar = ctk.CTkButton(
-            senha_container,
+            frame_senha,
             text="Gerar",
-            width=int(60 * self.escala),
-            height=int(35 * self.escala),
+            width=60,
             command=self._gerar_senha,
             fg_color="#8E7CC3",  # roxinho fofo
-            hover_color="#7667a3",  # roxinho fofo mais escuro
-            font=("Roboto", int(12 * self.escala))
+            hover_color="#7667a3"  # roxinho fofo mais escuro
         )
-        btn_gerar.pack(side="left", padx=int(2 * self.escala))
+        btn_gerar.pack(side="left", padx=2)
         
         # Opções de geração de senha
         frame_opcoes = ctk.CTkFrame(frame_principal, fg_color="transparent")

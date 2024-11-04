@@ -3,6 +3,8 @@ import customtkinter as ctk
 class BaseView(ctk.CTkFrame):
     def __init__(self, master):
         super().__init__(master)
+        # Remove a borda do frame definindo a cor de borda como None
+        self.configure(fg_color="#242424", border_width=0)
         self.pack(fill="both", expand=True)
         
         # Configura o tamanho mínimo antes de tentar fullscreen
