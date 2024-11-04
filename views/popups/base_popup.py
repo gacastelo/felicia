@@ -1,4 +1,8 @@
 import customtkinter as ctk
+import tkinter as tk
+from pathlib import Path
+import logging
+import os
 
 class BasePopup(ctk.CTkToplevel):
     def __init__(self, master, titulo="", largura=600, altura=500):
@@ -42,6 +46,20 @@ class BasePopup(ctk.CTkToplevel):
         
         # Aguarda a janela ser criada antes de dar foco
         self.after(100, self.focus_force)
+        
+        # Adiciona o ícone do aplicativo
+        try:
+            if os.name == 'nt':  # Windows
+                icon_path = Path(__file__).parent/ "assets" / "icones" / "felichia.ico"
+                self.iconbitmap(default=str(icon_path))
+                self.wm_iconbitmap(str(icon_path))
+            else:  # Linux/Mac
+                icon_path = Path(__file__).parent/ "assets" / "icones" / "felichia.png"
+                icon = tk.PhotoImage(file=str(icon_path))
+                self.iconphoto(True, icon)
+                self.wm_iconphoto(True, icon)
+        except Exception as e:
+            logging.error(f"Erro ao carregar ícone no popup: {e}")
     
     def _configurar_tema(self):
         # Obtém o tema atual

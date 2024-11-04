@@ -8,6 +8,9 @@ from pathlib import Path
 from views.animations.splash_screen import SplashScreen
 import pygame
 import json
+import tkinter as tk
+import os
+from ctypes import windll
 
 class App(ctk.CTk):
     def __init__(self):
@@ -16,9 +19,30 @@ class App(ctk.CTk):
         # Configuração de logging
         self._configurar_logging()
         
+        # Obtém o caminho absoluto para a pasta assets
+        base_path = Path(__file__).parent
+        icon_path = base_path / "assets" / "icones" / "felichia.ico"
+        
         # Configurações iniciais da janela
-        self.title("Gerenciador de Senhas")
+        self.title("Felichia - Login")
         self.geometry("800x600")
+        
+        # Adiciona o ícone da aplicação
+        try:
+            if os.name == 'nt':  # Windows
+                # Define o ícone tanto para a janela quanto para a barra de tarefas
+                self.iconbitmap(default=str(icon_path))
+                self.wm_iconbitmap(str(icon_path))
+                
+                # Força o Windows a atualizar o ícone na barra de tarefas
+                windll.shell32.Shell_NotifyIconW(0x0, str(icon_path))
+            else:  # Linux/Mac
+                icon = tk.PhotoImage(file=str(icon_path.with_suffix('.png')))
+                self.iconphoto(True, icon)
+                self.wm_iconphoto(True, icon)
+        except Exception as e:
+            logging.error(f"Erro ao carregar ícone: {e}")
+        
         # Carrega configurações salvas ou usa padrões
         self.carregar_configuracoes()
         
