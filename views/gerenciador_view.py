@@ -7,7 +7,7 @@ from controllers.senha_controller import SenhaController
 import pyperclip
 import logging
 from views.base_view import BaseView
-from views.popups.base_popup import BasePopup
+from views.popups.mensagem_popup import MensagemPopup
 
 class GerenciadorView(BaseView):
     def __init__(self, master):
@@ -294,19 +294,7 @@ class GerenciadorView(BaseView):
         self.after(60000, self._verificar_sessao)
     
     def _mostrar_erro(self, mensagem):
-        erro = BasePopup(self, "Erro", 300, 150)
-        
-        label = ctk.CTkLabel(erro, text=mensagem)
-        label.pack(pady=20)
-        
-        btn = ctk.CTkButton(erro, text="OK", command=erro.destroy)
-        btn.pack(pady=10)
+        MensagemPopup(self, "Erro", mensagem)
     
     def _mostrar_sucesso(self, mensagem):
-        sucesso = BasePopup(self, "Sucesso", 300, 150)
-        
-        label = ctk.CTkLabel(sucesso, text=mensagem)
-        label.pack(pady=20)
-        
-        btn = ctk.CTkButton(sucesso, text="OK", command=sucesso.destroy)
-        btn.pack(pady=10)
+        MensagemPopup(self, "Sucesso", mensagem)

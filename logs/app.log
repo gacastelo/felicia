@@ -440,3 +440,58 @@
 2024-11-03 23:39:30,646 - gerenciador_view - INFO - Senha copiado para área de transferência
 2024-11-03 23:39:34,221 - gerenciador_view - INFO - Senha copiado para área de transferência
 2024-11-03 23:39:39,490 - gerenciador_view - INFO - Senha copiado para área de transferência
+2024-11-03 23:42:54,191 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:43:08,444 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:43:08,449 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:43:08,602 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:43:08,603 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:43:08,603 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:43:08,603 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:43:08,631 - gerenciador_view - INFO - Lista atualizada com 3 senhas
+2024-11-03 23:43:10,588 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:43:10,589 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:43:10,589 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:43:10,589 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:43:10,630 - gerenciador_view - INFO - Lista atualizada com 3 senhas
+2024-11-03 23:43:27,760 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:43:27,760 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:43:27,760 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:43:27,760 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:43:27,803 - gerenciador_view - INFO - Lista atualizada com 3 senhas
+2024-11-03 23:43:29,161 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-03 23:44:44,986 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:44:54,774 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:44:54,776 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:45:56,322 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:46:06,053 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:46:06,055 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:46:06,147 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:46:06,149 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:46:06,149 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:46:06,149 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:46:06,176 - gerenciador_view - INFO - Lista atualizada com 3 senhas
+2024-11-03 23:46:38,762 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:46:45,350 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:46:45,354 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:46:45,546 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:46:45,546 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:46:45,546 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:46:45,546 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:46:45,574 - gerenciador_view - INFO - Lista atualizada com 3 senhas
+2024-11-03 23:46:55,001 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:46:55,001 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:46:55,001 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:46:55,001 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:46:55,042 - gerenciador_view - INFO - Lista atualizada com 3 senhas
+2024-11-03 23:48:24,459 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 23:48:32,371 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 23:48:32,373 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 23:48:32,519 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:48:32,519 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:48:32,519 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 23:48:32,519 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 23:48:32,543 - gerenciador_view - INFO - Lista atualizada com 3 senhas
+2024-11-03 23:48:54,945 - root - INFO - Tema alterado para: dark
+2024-11-03 23:48:57,662 - root - INFO - Tema alterado para: light
+2024-11-03 23:49:01,326 - gerenciador_view - INFO - Senha copiado para área de transferência
+2024-11-03 23:49:25,202 - root - INFO - Tema alterado para: dark
