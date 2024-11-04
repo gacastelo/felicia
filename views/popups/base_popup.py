@@ -1,7 +1,7 @@
 import customtkinter as ctk
 
 class BasePopup(ctk.CTkToplevel):
-    def __init__(self, master, titulo, largura=500, altura=550):
+    def __init__(self, master, titulo="", largura=600, altura=500):
         super().__init__(master)
         
         # Configurações básicas
@@ -30,6 +30,9 @@ class BasePopup(ctk.CTkToplevel):
         # Configura a cor da barra de título
         self._configurar_tema()
         
+        # Mantém o popup sempre no topo
+        self.lift()
+        
         # Aguarda a janela ser criada antes de dar foco
         self.after(100, self.focus_force)
     
@@ -38,49 +41,35 @@ class BasePopup(ctk.CTkToplevel):
         tema_atual = ctk.get_appearance_mode()
         
         if tema_atual == "Dark":
-            # Cores para tema escuro
-            cor_fundo = "#1a1a1a"  # Cor escura para o fundo
-            cor_texto = "white"    # Texto branco
+            cor_fundo = "#1a1a1a"
+            cor_texto = "white"
         else:
-            # Cores para tema claro
-            cor_fundo = "#f0f0f0"  # Cor clara para o fundo
-            cor_texto = "black"    # Texto preto
+            cor_fundo = "#f0f0f0"
+            cor_texto = "black"
         
         # Configura as cores da janela
         self.configure(fg_color=cor_fundo)
         
-        # No Windows, configura a cor da barra de título
+        # Configuração da barra de título no Windows
         if self.winfo_exists():
             try:
                 from ctypes import windll, byref, sizeof, c_int
                 
                 HWND = windll.user32.GetParent(self.winfo_id())
-                
-                # Constantes do Windows
                 DWMWA_USE_IMMERSIVE_DARK_MODE = 20
                 DWMWA_CAPTION_COLOR = 35
                 
-                # Ativa o modo escuro na barra de título
-                if tema_atual == "Dark":
-                    windll.dwmapi.DwmSetWindowAttribute(
-                        HWND,
-                        DWMWA_USE_IMMERSIVE_DARK_MODE,
-                        byref(c_int(1)),
-                        sizeof(c_int)
-                    )
-                    # Define a cor da barra de título
-                    cor_rgb = int("1a1a1a", 16)  # Converte hex para int
-                else:
-                    windll.dwmapi.DwmSetWindowAttribute(
-                        HWND,
-                        DWMWA_USE_IMMERSIVE_DARK_MODE,
-                        byref(c_int(0)),
-                        sizeof(c_int)
-                    )
-                    # Define a cor da barra de título
-                    cor_rgb = int("f0f0f0", 16)  # Converte hex para int
+                # Configura o modo escuro/claro
+                valor_modo = 1 if tema_atual == "Dark" else 0
+                windll.dwmapi.DwmSetWindowAttribute(
+                    HWND,
+                    DWMWA_USE_IMMERSIVE_DARK_MODE,
+                    byref(c_int(valor_modo)),
+                    sizeof(c_int)
+                )
                 
-                # Aplica a cor da barra de título
+                # Define a cor da barra de título
+                cor_rgb = int("1a1a1a" if tema_atual == "Dark" else "f0f0f0", 16)
                 windll.dwmapi.DwmSetWindowAttribute(
                     HWND,
                     DWMWA_CAPTION_COLOR,
@@ -88,4 +77,8 @@ class BasePopup(ctk.CTkToplevel):
                     sizeof(c_int)
                 )
             except:
-                pass  # Ignora erros se não estiver no Windows ou se falhar
+                pass
+    
+    def destroy(self):
+        self.grab_release()
+        super().destroy()

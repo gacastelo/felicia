@@ -1,5 +1,6 @@
 from views.base_view import BaseView
 import customtkinter as ctk
+from views.popups.base_popup import BasePopup
 
 class LoginView(BaseView):
     def __init__(self, master):
@@ -103,14 +104,7 @@ class LoginView(BaseView):
         GerenciadorView(self.master)
     
     def _mostrar_erro(self, mensagem):
-        erro = ctk.CTkToplevel(self)
-        erro.title("Erro")
-        erro.geometry("300x150")
-        
-        erro.update_idletasks()
-        x = (erro.winfo_screenwidth() - erro.winfo_width()) // 2
-        y = (erro.winfo_screenheight() - erro.winfo_height()) // 2
-        erro.geometry(f"+{x}+{y}")
+        erro = BasePopup(self, "Erro")
         
         label = ctk.CTkLabel(erro, text=mensagem)
         label.pack(pady=20)

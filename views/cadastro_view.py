@@ -197,14 +197,9 @@ class CadastroView(ctk.CTkFrame):
         LoginView(self.master)
     
     def _mostrar_erro(self, mensagem):
-        erro = ctk.CTkToplevel(self)
-        erro.title("Erro")
-        erro.geometry("300x150")
+        from views.popups.base_popup import BasePopup
         
-        erro.update_idletasks()
-        x = (erro.winfo_screenwidth() - erro.winfo_width()) // 2
-        y = (erro.winfo_screenheight() - erro.winfo_height()) // 2
-        erro.geometry(f"+{x}+{y}")
+        erro = BasePopup(self, "Erro")
         
         label = ctk.CTkLabel(erro, text=mensagem)
         label.pack(pady=20)
@@ -213,14 +208,9 @@ class CadastroView(ctk.CTkFrame):
         btn.pack(pady=10)
     
     def _mostrar_sucesso(self, mensagem):
-        sucesso = ctk.CTkToplevel(self)
-        sucesso.title("Sucesso")
-        sucesso.geometry("300x150")
+        from views.popups.base_popup import BasePopup
         
-        sucesso.update_idletasks()
-        x = (sucesso.winfo_screenwidth() - sucesso.winfo_width()) // 2
-        y = (sucesso.winfo_screenheight() - sucesso.winfo_height()) // 2
-        sucesso.geometry(f"+{x}+{y}")
+        sucesso = BasePopup(self, "Sucesso")
         
         label = ctk.CTkLabel(sucesso, text=mensagem)
         label.pack(pady=20)

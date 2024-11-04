@@ -6,7 +6,7 @@ import pyperclip
 
 class AlterarSenhaPopup(BasePopup):
     def __init__(self, master, senha):
-        super().__init__(master, "Alterar Senha")
+        super().__init__(master, "Alterar Senha", largura=600, altura=500)
         self.senha = senha
         self._criar_widgets()
         self._preencher_dados_atuais()

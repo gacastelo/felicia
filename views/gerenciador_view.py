@@ -15,6 +15,7 @@ class GerenciadorView(BaseView):
         self.senha_controller = SenhaController(self.master.auth_controller.usuario_atual.id)
         self.senhas_selecionadas = []
         self.logger = logging.getLogger('gerenciador_view')
+        self.popup_atual = None
         self._criar_widgets()
         self._atualizar_lista()
         
@@ -244,7 +245,9 @@ class GerenciadorView(BaseView):
             self._mostrar_erro(f"Erro ao copiar {tipo}")
     
     def _abrir_adicionar(self):
-        AdicionarSenhaPopup(self)
+        if self.popup_atual:
+            self.popup_atual.destroy()
+        self.popup_atual = AdicionarSenhaPopup(self)
     
     def _remover_senha(self):
         if not self.senhas_selecionadas:
@@ -270,13 +273,19 @@ class GerenciadorView(BaseView):
             self._mostrar_erro("Selecione uma senha para alterar!")
             return
         
-        AlterarSenhaPopup(self, self.senhas_selecionadas[0])
+        if self.popup_atual:
+            self.popup_atual.destroy()
+        self.popup_atual = AlterarSenhaPopup(self, self.senhas_selecionadas[0])
     
     def _abrir_backup(self):
-        BackupPopup(self)
+        if self.popup_atual:
+            self.popup_atual.destroy()
+        self.popup_atual = BackupPopup(self)
     
     def _abrir_temas(self):
-        TrocarTemaPopup(self)
+        if self.popup_atual:
+            self.popup_atual.destroy()
+        self.popup_atual = TrocarTemaPopup(self)
     
     def _voltar_login(self):
         from views.login_view import LoginView
