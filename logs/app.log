@@ -1,0 +1,85 @@
+2024-11-03 18:12:14,241 - gerenciador_senhas - INFO - Novo usuário cadastrado: Gabriel
+2024-11-03 18:14:06,779 - gerenciador_senhas - INFO - Usuário Gabriel logado com sucesso
+2024-11-03 21:16:00,538 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 21:16:04,281 - auth_controller - WARNING - Tentativa de login com usuário inexistente: 1
+2024-11-03 21:16:51,438 - usuario_model - INFO - Novo usuário criado: Gabriel
+2024-11-03 21:16:51,440 - auth_controller - INFO - Novo usuário cadastrado: Gabriel
+2024-11-03 21:16:52,659 - auth_controller - WARNING - Tentativa de cadastro de usuário existente: Gabriel
+2024-11-03 21:16:53,236 - auth_controller - WARNING - Tentativa de cadastro de usuário existente: Gabriel
+2024-11-03 21:17:06,112 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 21:17:06,114 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 21:17:06,254 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:17:06,254 - gerenciador_view - INFO - Lista de senhas atualizada com sucesso
+2024-11-03 21:18:54,867 - criptografia - INFO - Nova chave de criptografia criada
+2024-11-03 21:18:54,871 - senha_model - INFO - Nova senha criada para o site: Suap
+2024-11-03 21:18:54,873 - senha_controller - INFO - Nova senha adicionada para o site: Suap
+2024-11-03 21:18:54,885 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:18:54,885 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:18:54,894 - gerenciador_view - ERROR - Erro ao atualizar lista: 'str' object has no attribute 'strftime'
+2024-11-03 21:19:03,021 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:19:03,021 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:19:03,030 - gerenciador_view - ERROR - Erro ao atualizar lista: 'str' object has no attribute 'strftime'
+2024-11-03 21:19:04,209 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:19:04,209 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:19:04,217 - gerenciador_view - ERROR - Erro ao atualizar lista: 'str' object has no attribute 'strftime'
+2024-11-03 21:21:16,332 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 21:21:35,346 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 21:21:35,348 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 21:21:35,538 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:21:35,538 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:21:35,546 - gerenciador_view - ERROR - Erro ao atualizar lista: 'str' object has no attribute 'strftime'
+2024-11-03 21:21:43,627 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:21:43,627 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:21:43,636 - gerenciador_view - ERROR - Erro ao atualizar lista: 'str' object has no attribute 'strftime'
+2024-11-03 21:24:51,240 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 21:25:04,852 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 21:25:04,854 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 21:25:05,020 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:25:05,020 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:25:05,027 - gerenciador_view - ERROR - Erro ao atualizar lista: 'str' object has no attribute 'strftime'
+2024-11-03 21:25:13,081 - gerenciador_view - INFO - Senha copiado para área de transferência
+2024-11-03 21:25:22,644 - gerenciador_view - INFO - Usuario copiado para área de transferência
+2024-11-03 21:25:37,177 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:25:37,177 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:25:37,186 - gerenciador_view - ERROR - Erro ao atualizar lista: 'str' object has no attribute 'strftime'
+2024-11-03 21:25:40,258 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:25:40,258 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:25:40,266 - gerenciador_view - ERROR - Erro ao atualizar lista: 'str' object has no attribute 'strftime'
+2024-11-03 21:25:41,224 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:25:41,225 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:25:41,232 - gerenciador_view - ERROR - Erro ao atualizar lista: 'str' object has no attribute 'strftime'
+2024-11-03 21:26:45,745 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 21:26:53,463 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 21:26:53,464 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 21:26:53,617 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:26:53,617 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:26:53,625 - gerenciador_view - ERROR - Erro ao atualizar lista: 'str' object has no attribute 'strftime'
+2024-11-03 21:27:34,456 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:27:34,458 - senha_model - INFO - Nova senha criada para o site: anime fire
+2024-11-03 21:27:34,460 - senha_controller - INFO - Nova senha adicionada para o site: anime fire
+2024-11-03 21:27:34,471 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:27:34,471 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:27:34,471 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:27:34,486 - gerenciador_view - ERROR - Erro ao atualizar lista: 'str' object has no attribute 'strftime'
+2024-11-03 21:27:37,241 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:27:37,241 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:27:37,241 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:27:37,254 - gerenciador_view - ERROR - Erro ao atualizar lista: 'str' object has no attribute 'strftime'
+2024-11-03 21:27:44,971 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 21:27:52,558 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 21:27:52,560 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 21:27:52,708 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:27:52,708 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:27:52,708 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:27:52,716 - gerenciador_view - ERROR - Erro ao atualizar lista: 'str' object has no attribute 'strftime'
+2024-11-03 21:28:24,661 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-03 21:28:32,384 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-03 21:28:32,386 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-03 21:28:32,524 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:28:32,524 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:28:32,525 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:28:32,542 - gerenciador_view - INFO - Lista atualizada com 2 senhas
+2024-11-03 21:28:35,506 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:28:35,506 - criptografia - INFO - Chave de criptografia carregada
+2024-11-03 21:28:35,506 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-03 21:28:35,536 - gerenciador_view - INFO - Lista atualizada com 2 senhas
