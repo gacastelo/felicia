@@ -16,7 +16,7 @@ class TrocarTemaPopup(BasePopup):
         label.pack(pady=10)
         
         # Botões de tema
-        temas = [("Claro", "light"), ("Escuro", "dark"), ("Sistema", "system")]
+        temas = [("Claro", "light"), ("Escuro", "dark")]
         
         for nome, valor in temas:
             btn = ctk.CTkButton(

@@ -5,6 +5,7 @@ from utils.database import Database
 from utils.backup import BackupService
 import logging
 from pathlib import Path
+from views.animations.splash_screen import show_splash
 
 class App(ctk.CTk):
     def __init__(self):
@@ -58,5 +59,6 @@ class App(ctk.CTk):
         logging.info(f"Tema alterado para: {novo_tema}")
 
 if __name__ == "__main__":
+    splash = show_splash()
     app = App()
-    app.mainloop() 
+    app.mainloop()
