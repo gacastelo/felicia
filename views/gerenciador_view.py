@@ -297,7 +297,10 @@ class GerenciadorView(ctk.CTkFrame):
         erro = ctk.CTkToplevel(self)
         erro.title("Erro")
         erro.geometry("300x150")
+        erro.transient(self)  # Define a janela principal como pai
+        erro.grab_set()       # Força o foco na janela de erro
         
+        # Centraliza a janela
         erro.update_idletasks()
         x = (erro.winfo_screenwidth() - erro.winfo_width()) // 2
         y = (erro.winfo_screenheight() - erro.winfo_height()) // 2
@@ -313,7 +316,10 @@ class GerenciadorView(ctk.CTkFrame):
         sucesso = ctk.CTkToplevel(self)
         sucesso.title("Sucesso")
         sucesso.geometry("300x150")
+        sucesso.transient(self)  # Define a janela principal como pai
+        sucesso.grab_set()       # Força o foco na janela de sucesso
         
+        # Centraliza a janela
         sucesso.update_idletasks()
         x = (sucesso.winfo_screenwidth() - sucesso.winfo_width()) // 2
         y = (sucesso.winfo_screenheight() - sucesso.winfo_height()) // 2
