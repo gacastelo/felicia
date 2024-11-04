@@ -53,15 +53,15 @@ class GerenciadorView(ctk.CTkFrame):
         
         # Botões de ação
         botoes = [
-            ("Adicionar", self._abrir_adicionar, "green"),
-            ("Remover", self._remover_senha, "red"),
-            ("Alterar", self._abrir_alterar, "blue"),
-            ("Atualizar", self._atualizar_lista, "gray"),
-            ("Copiar Senha", lambda: self._copiar_dado('senha'), "purple"),
-            ("Copiar Usuário", lambda: self._copiar_dado('usuario'), "purple"),
-            ("Backup", self._abrir_backup, "orange"),
-            ("Temas", self._abrir_temas, "blue"),
-            ("Voltar", self._voltar_login, "red")
+            ("Adicionar", self._abrir_adicionar, "#2E8B57"),        # Verde escuro
+            ("Remover", self._remover_senha, "#B22222"),            # Vermelho mais escuro
+            ("Alterar", self._abrir_alterar, "#3A506B"),            # Azul escuro
+            ("Atualizar", self._atualizar_lista, "#2C2C2E"),        # Cinza escuro
+            ("Copiar Senha", lambda: self._copiar_dado('senha'), "#2C2C2E"), # Cinza escuro
+            ("Copiar Usuário", lambda: self._copiar_dado('usuario'), "#2C2C2E"), # Cinza escuro
+            ("Backup", self._abrir_backup, "#2C2C2E"), # Cinza escuro            
+            ("Temas", self._abrir_temas, "#2C2C2E"), # Cinza escuro               
+            ("Voltar", self._voltar_login, "#8E7CC3")  # Cinza escuro 
         ]
         
         for texto, comando, cor in botoes:
