@@ -58,4 +58,5 @@ Todos os direitos reservados.
 
 <p align="center">
   Desenvolvido por Gabriel Castelo
+  Named by: Luis Ryan
 </p>
