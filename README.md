@@ -51,8 +51,8 @@ Se encontrar algum problema ou tiver sugestões:
 - Entre em contato: [GitHub](https://github.com/gacastelo)
 
 ## 📄 Licença
-Copyright © 2024 Gabriel Castelo  
-Named by: Luis Ryan
+Copyright © 2024 Gabriel Castelo Named by: Luis Ryan
+
 Todos os direitos reservados.
 
 ---
