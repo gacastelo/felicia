@@ -21,9 +21,8 @@ Felichia é um gerenciador de senhas seguro e fácil de usar, desenvolvido para 
 
 ## 📥 Instalação
 1. Baixe o instalador mais recente (`Felichia_Setup.exe`)
-2. Execute o instalador como administrador
-3. Siga as instruções do assistente de instalação
-4. Após a instalação, o programa pode ser iniciado pelo ícone na área de trabalho ou menu iniciar
+2. Siga as instruções do assistente de instalação
+3. Após a instalação, o programa pode ser iniciado pelo ícone na área de trabalho ou menu iniciar
 
 ## 🔒 Segurança
 - Todas as senhas são armazenadas com criptografia AES-256
