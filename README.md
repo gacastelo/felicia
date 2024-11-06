@@ -46,9 +46,8 @@ Felichia é um gerenciador de senhas seguro e fácil de usar, desenvolvido para 
 - Sempre mantenha o programa atualizado para ter as últimas correções de segurança
 
 ## 🤝 Suporte
-Se encontrar algum problema ou tiver sugestões:
-- Abra uma issue no GitHub
-- Entre em contato: [GitHub](https://github.com/gacastelo)
+Para problemas ou sugestões:
+- [Abra uma issue no GitHub](https://github.com/gacastelo)
 
 ## 📄 Licença
 Copyright © 2024 Gabriel Castelo Named by: Luis Ryan
