@@ -1,0 +1,32 @@
+**CONTRATO DE LICENÇA DE USO DO SOFTWARE FELICHIA**
+
+**1. TERMOS DE USO**  
+Este contrato de licença de uso ("Licença") é um contrato legal entre o usuário ("Você" ou "Usuário") e Gabriel Castelo, o proprietário e detentor dos direitos autorais ("Autor" ou "Licenciante") do software denominado **Felichia** ("Software"). Ao instalar, copiar, baixar, acessar ou utilizar o Software, Você concorda em ficar vinculado aos termos e condições estabelecidos nesta Licença. Se Você não concordar com os termos desta Licença, não instale, copie, acesse ou use o Software. Este Software é protegido por direitos autorais e outras leis de propriedade intelectual aplicáveis. Este contrato de licença concede a Você um direito limitado, não exclusivo e intransferível de uso do Software, sujeito aos termos e condições descritos abaixo.
+
+**2. CONCESSÃO DE LICENÇA**  
+O Licenciante concede a Você uma licença pessoal, limitada, revogável, não exclusiva e intransferível para:
+- Instalar e utilizar o Software em dispositivos pessoais, apenas para fins pessoais, acadêmicos ou educacionais.
+- Fazer uma ou mais cópias de segurança do Software, desde que tais cópias sejam mantidas unicamente para uso de recuperação de dados, em caso de falha ou perda do Software original.
+- Modificar o código-fonte do Software para personalização ou adaptação de funcionalidades, exclusivamente para uso pessoal ou acadêmico, desde que Você mantenha as informações de direitos autorais e atribuições originais do Licenciante em quaisquer versões modificadas, incluindo menções explícitas a esta Licença em todos os arquivos e documentações relacionados ao Software.
+
+**3. RESTRIÇÕES**  
+Este Software é licenciado, e não vendido, ao Usuário. Como tal, o Usuário não possui qualquer título ou propriedade no Software, exceto na medida em que a presente Licença expressamente o permita. Com base nos direitos limitados concedidos acima, Você não está autorizado a:
+- Distribuir, comercializar, sublicenciar, vender, alugar, emprestar ou transferir o Software, seja em sua forma original ou modificada, seja como parte de outro produto ou serviço, sem permissão expressa e por escrito do Licenciante.
+- Criar trabalhos derivados, utilizar partes do Software em outros produtos, ou realizar engenharia reversa, descompilar, desmontar ou tentar obter o código-fonte por métodos diferentes daqueles expressamente autorizados, exceto na medida em que tais restrições sejam proibidas por leis aplicáveis.
+- Exibir, divulgar, disponibilizar ou fazer o upload do Software em qualquer plataforma pública ou ambiente compartilhado sem autorização expressa do Licenciante, com a finalidade de distribuição pública ou compartilhamento em redes de código aberto, em fóruns, em serviços de hospedagem de código ou em redes de compartilhamento de arquivos.
+- Incorporar o Software, em sua forma original ou modificada, em qualquer aplicação comercial, sistema de gestão ou serviço de terceiros sem autorização prévia do Licenciante.
+
+**4. DIREITOS AUTORAIS**  
+Este Software e todos os direitos, títulos e interesses relacionados, incluindo, sem limitação, todos os direitos autorais, patentes, segredos comerciais, marcas registradas e outros direitos de propriedade intelectual associados, são de propriedade exclusiva do Licenciante, Gabriel Castelo. Todos os direitos, títulos e interesses que não sejam expressamente concedidos por esta Licença permanecem reservados ao Licenciante. Quaisquer modificações feitas ao Software deverão incluir este contrato de licença e preservar todas as referências e atribuições de direitos autorais do Licenciante. O Usuário concorda em não remover, ocultar, modificar ou obscurecer quaisquer avisos de direitos autorais, marcas comerciais, logotipos ou outras indicações de propriedade que possam aparecer no Software.
+
+**5. GARANTIA E LIMITAÇÃO DE RESPONSABILIDADE**  
+O Licenciante fornece o Software "como está", sem qualquer tipo de garantia, seja expressa ou implícita, incluindo, mas não se limitando a, garantias de comercialização, adequação a um propósito específico, integridade ou ausência de erros. O Licenciante não garante que o Software esteja livre de falhas, vulnerabilidades de segurança, erros ou interrupções, nem que funcione ininterruptamente, de forma segura ou livre de erros. Em nenhum caso o Licenciante será responsável por quaisquer danos diretos, indiretos, incidentais, especiais, consequenciais ou punitivos, incluindo, mas não se limitando a, perda de dados, perda de receita, perda de economia antecipada, perda de lucros ou interrupção de negócios, decorrentes do uso ou da incapacidade de uso do Software, mesmo que o Licenciante tenha sido informado da possibilidade de tais danos. O Usuário assume integral responsabilidade por quaisquer resultados, consequências ou impactos decorrentes do uso, da modificação ou da distribuição do Software, e concorda que o Licenciante não será responsabilizado em nenhuma hipótese.
+
+**6. RESCISÃO**  
+Esta Licença permanecerá em vigor até ser rescindida. O Licenciante pode rescindir esta Licença a qualquer momento, caso o Usuário descumpra quaisquer de seus termos e condições. Após a rescisão, Você deverá desinstalar e destruir todas as cópias do Software em sua posse, incluindo quaisquer cópias de backup e modificações que tenham sido feitas com base na concessão de uso pessoal ou educacional.
+
+**7. DISPOSIÇÕES GERAIS**  
+Caso qualquer disposição desta Licença seja considerada inválida ou inexequível por um tribunal competente, tal disposição será aplicada na máxima extensão possível, e as disposições restantes continuarão em pleno vigor e efeito. Esta Licença constitui o acordo integral entre o Licenciante e o Usuário em relação ao uso do Software, substituindo quaisquer entendimentos, representações ou contratos anteriores que possam existir entre as partes.
+
+Copyright © 2024 Gabriel Castelo  
+Todos os direitos reservados.
