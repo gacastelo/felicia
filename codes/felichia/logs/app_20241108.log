@@ -1,0 +1,7 @@
+2024-11-08 12:11:44,492 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-08 12:11:44,492 - root - INFO - Logging iniciado com sucesso
+2024-11-08 12:11:44,563 - root - INFO - Tamanho da fonte alterado para: 13
+2024-11-08 12:11:44,576 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-08 12:11:44,630 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\git updates\felichia\felichia\assets\sons\startup.wav
+2024-11-08 12:11:44,631 - root - INFO - Arquivo de som encontrado!
+2024-11-08 12:11:44,632 - root - INFO - Som iniciado com sucesso

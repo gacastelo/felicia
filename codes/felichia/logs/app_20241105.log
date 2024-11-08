@@ -1,0 +1,377 @@
+2024-11-05 00:15:00,433 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:15:00,563 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:15:00,571 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:15:00,748 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:15:00,749 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:15:00,751 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:15:57,882 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:15:57,885 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:16:15,328 - usuario_model - INFO - Novo usuário criado: Gabriel
+2024-11-05 00:16:15,330 - auth_controller - INFO - Novo usuário cadastrado: Gabriel
+2024-11-05 00:16:15,343 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:16:15,345 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:16:30,706 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 00:16:30,708 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 00:16:31,018 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:16:31,019 - gerenciador_view - INFO - Lista atualizada - nenhuma senha encontrada
+2024-11-05 00:16:33,613 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 00:18:36,370 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:18:36,371 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:18:36,451 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:18:36,453 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:18:36,531 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:18:36,532 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:18:36,534 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:20:48,714 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:20:48,714 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:20:48,789 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:20:48,791 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:20:48,850 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:20:48,851 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:20:48,855 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:21:11,180 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:21:11,181 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:21:11,254 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:21:11,255 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:21:11,319 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:21:11,319 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:21:11,322 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:22:20,848 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:22:20,849 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:22:20,925 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:22:20,926 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:22:20,991 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:22:20,993 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:22:20,995 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:22:38,880 - usuario_model - INFO - Novo usuário criado: a
+2024-11-05 00:22:38,881 - auth_controller - INFO - Novo usuário cadastrado: a
+2024-11-05 00:22:38,895 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:22:38,898 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:22:47,217 - usuario_model - INFO - Novo usuário criado: v
+2024-11-05 00:22:47,220 - auth_controller - INFO - Novo usuário cadastrado: v
+2024-11-05 00:22:47,232 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:22:47,235 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:22:54,953 - auth_controller - WARNING - Tentativa de cadastro de usuário existente: v
+2024-11-05 00:22:54,963 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:22:54,967 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:24:27,747 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:24:27,748 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:24:27,823 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:24:27,825 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:24:27,892 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:24:27,893 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:24:27,895 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:24:45,855 - auth_controller - WARNING - Tentativa de cadastro de usuário existente: a
+2024-11-05 00:24:45,870 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:24:45,872 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:25:35,026 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:25:35,026 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:25:35,104 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:25:35,106 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:25:35,165 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:25:35,165 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:25:35,168 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:25:42,159 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:25:42,162 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:25:54,177 - usuario_model - INFO - Usuário atualizado: a
+2024-11-05 00:25:54,179 - auth_controller - INFO - Login bem sucedido: a
+2024-11-05 00:25:54,328 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:25:54,330 - gerenciador_view - INFO - Lista atualizada - nenhuma senha encontrada
+2024-11-05 00:26:02,088 - auth_controller - INFO - Logout realizado: a
+2024-11-05 00:27:37,416 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:27:37,416 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:27:37,497 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:27:37,498 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:27:37,564 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:27:37,564 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:27:37,567 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:27:46,605 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 00:27:46,606 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 00:27:46,754 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:27:46,756 - gerenciador_view - INFO - Lista atualizada - nenhuma senha encontrada
+2024-11-05 00:29:03,835 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 00:31:46,896 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:31:46,897 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:31:46,977 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:31:46,979 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:31:47,043 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:31:47,044 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:31:47,046 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:31:58,547 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 00:31:58,549 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 00:31:58,709 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:31:58,710 - gerenciador_view - INFO - Lista atualizada - nenhuma senha encontrada
+2024-11-05 00:32:15,407 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:32:15,409 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:33:42,032 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 00:33:46,850 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:33:46,851 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:33:46,936 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:33:46,937 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:33:47,003 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:33:47,003 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:33:47,005 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:34:00,119 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 00:34:00,122 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 00:34:00,286 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:34:00,287 - gerenciador_view - INFO - Lista atualizada - nenhuma senha encontrada
+2024-11-05 00:35:52,608 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 00:36:02,996 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:36:02,996 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:36:03,081 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:36:03,082 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:36:03,143 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:36:03,144 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:36:03,146 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:36:14,460 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 00:36:14,462 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 00:36:14,630 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:36:14,632 - gerenciador_view - INFO - Lista atualizada - nenhuma senha encontrada
+2024-11-05 00:37:41,685 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 00:38:25,889 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:38:25,889 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:38:25,979 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:38:25,980 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:38:26,044 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:38:26,044 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:38:26,047 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:38:43,506 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:38:43,508 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:38:47,218 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 00:38:47,220 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 00:38:47,380 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:38:47,382 - gerenciador_view - INFO - Lista atualizada - nenhuma senha encontrada
+2024-11-05 00:39:34,442 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 00:39:40,792 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:39:40,793 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:39:40,875 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:39:40,876 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:39:40,937 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:39:40,938 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:39:40,940 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:39:52,289 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 00:39:52,292 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 00:39:52,455 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:39:52,456 - gerenciador_view - INFO - Lista atualizada - nenhuma senha encontrada
+2024-11-05 00:40:44,256 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 00:41:11,388 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:41:11,389 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:41:11,470 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:41:11,472 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:41:11,535 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:41:11,535 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:41:11,538 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:41:20,321 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 00:41:20,323 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 00:41:20,479 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:41:20,480 - gerenciador_view - INFO - Lista atualizada - nenhuma senha encontrada
+2024-11-05 00:42:14,425 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 00:42:53,107 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:42:53,107 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:42:53,189 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:42:53,191 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:42:53,250 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:42:53,250 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:42:53,252 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:43:07,084 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 00:43:07,086 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 00:43:07,253 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:43:07,254 - gerenciador_view - INFO - Lista atualizada - nenhuma senha encontrada
+2024-11-05 00:43:12,657 - criptografia - INFO - Chave de criptografia carregada
+2024-11-05 00:43:12,678 - senha_model - INFO - Nova senha criada para o site: a
+2024-11-05 00:43:12,680 - senha_controller - INFO - Nova senha adicionada para o site: a
+2024-11-05 00:43:12,695 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:43:12,696 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:43:12,703 - criptografia - INFO - Chave de criptografia carregada
+2024-11-05 00:43:12,703 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:43:12,719 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-05 00:43:25,236 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:43:25,238 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:44:07,281 - criptografia - INFO - Chave de criptografia carregada
+2024-11-05 00:44:07,282 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:44:07,300 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-05 00:44:08,081 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:44:08,083 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 00:44:43,913 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 00:44:52,089 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:44:52,089 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:44:52,168 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:44:52,169 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:44:52,234 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:44:52,234 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:44:52,236 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:45:19,317 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 00:45:19,319 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 00:45:19,473 - criptografia - INFO - Chave de criptografia carregada
+2024-11-05 00:45:19,473 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:45:19,487 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-05 00:46:49,373 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 00:46:57,583 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:46:57,583 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:46:57,667 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:46:57,669 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:46:57,730 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:46:57,731 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:46:57,733 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:47:06,637 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 00:47:06,639 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 00:47:06,787 - criptografia - INFO - Chave de criptografia carregada
+2024-11-05 00:47:06,789 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:47:06,801 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-05 00:54:22,425 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 00:54:33,592 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 00:54:33,592 - root - INFO - Logging iniciado com sucesso
+2024-11-05 00:54:33,676 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 00:54:33,677 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 00:54:33,734 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 00:54:33,735 - root - INFO - Arquivo de som encontrado!
+2024-11-05 00:54:33,738 - root - INFO - Som iniciado com sucesso
+2024-11-05 00:54:43,432 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 00:54:43,435 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 00:54:43,602 - criptografia - INFO - Chave de criptografia carregada
+2024-11-05 00:54:43,602 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 00:54:43,616 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-05 20:39:50,485 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 20:39:50,486 - root - INFO - Logging iniciado com sucesso
+2024-11-05 20:39:50,568 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 20:39:50,570 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 20:39:50,752 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 20:39:50,752 - root - INFO - Arquivo de som encontrado!
+2024-11-05 20:39:50,754 - root - INFO - Som iniciado com sucesso
+2024-11-05 20:47:46,041 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 20:47:46,042 - root - INFO - Logging iniciado com sucesso
+2024-11-05 20:47:46,121 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 20:47:46,122 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 20:47:46,186 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 20:47:46,186 - root - INFO - Arquivo de som encontrado!
+2024-11-05 20:47:46,189 - root - INFO - Som iniciado com sucesso
+2024-11-05 20:50:32,245 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 20:50:32,247 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 20:50:32,622 - criptografia - INFO - Chave de criptografia carregada
+2024-11-05 20:50:32,623 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 20:50:32,637 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-05 21:00:55,507 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:00:59,245 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 21:07:37,591 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 21:07:37,591 - root - INFO - Logging iniciado com sucesso
+2024-11-05 21:07:37,671 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 21:07:37,672 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 21:07:37,745 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 21:07:37,746 - root - INFO - Arquivo de som encontrado!
+2024-11-05 21:07:37,748 - root - INFO - Som iniciado com sucesso
+2024-11-05 21:07:51,604 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 21:07:51,606 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 21:07:51,756 - criptografia - INFO - Chave de criptografia carregada
+2024-11-05 21:07:51,757 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 21:07:51,768 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-05 21:09:01,784 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:03,816 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:05,002 - root - INFO - Tamanho da fonte alterado para: 13
+2024-11-05 21:09:05,156 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:05,159 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:06,754 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:07,583 - root - INFO - Tamanho da fonte alterado para: 17
+2024-11-05 21:09:07,757 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:07,760 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:09,673 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:12,503 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 21:09:12,652 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:12,656 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:14,362 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:15,199 - root - INFO - Tamanho da fonte alterado para: 13
+2024-11-05 21:09:15,349 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:15,352 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:17,426 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:18,531 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 21:09:18,703 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:18,706 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:32,265 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:36,571 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:09:36,573 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:17:28,319 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:18:20,191 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 21:18:25,314 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 21:18:25,314 - root - INFO - Logging iniciado com sucesso
+2024-11-05 21:18:25,397 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 21:18:25,398 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 21:18:25,470 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 21:18:25,472 - root - INFO - Arquivo de som encontrado!
+2024-11-05 21:18:25,474 - root - INFO - Som iniciado com sucesso
+2024-11-05 21:19:04,767 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 21:19:04,770 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 21:19:04,923 - criptografia - INFO - Chave de criptografia carregada
+2024-11-05 21:19:04,924 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 21:19:04,936 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-05 21:19:07,166 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:19:10,383 - backup_service - ERROR - Erro ao exportar backup: tuple index out of range
+2024-11-05 21:19:10,399 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:19:10,400 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:19:19,367 - backup_service - ERROR - Erro ao exportar backup: tuple index out of range
+2024-11-05 21:19:19,380 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:19:19,382 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:19:37,917 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 21:21:23,279 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 21:21:23,280 - root - INFO - Logging iniciado com sucesso
+2024-11-05 21:21:23,361 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 21:21:23,362 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 21:21:23,434 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 21:21:23,434 - root - INFO - Arquivo de som encontrado!
+2024-11-05 21:21:23,437 - root - INFO - Som iniciado com sucesso
+2024-11-05 21:22:08,207 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 21:22:08,209 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 21:22:08,359 - criptografia - INFO - Chave de criptografia carregada
+2024-11-05 21:22:08,359 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 21:22:08,371 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-05 21:24:52,872 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:24:55,289 - backup_service - ERROR - Erro ao exportar backup: no such column: nome
+2024-11-05 21:24:55,305 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:24:55,307 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:25:01,379 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 21:39:25,725 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 21:39:25,725 - root - INFO - Logging iniciado com sucesso
+2024-11-05 21:39:25,801 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 21:39:25,802 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 21:39:25,874 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 21:39:25,875 - root - INFO - Arquivo de som encontrado!
+2024-11-05 21:39:25,877 - root - INFO - Som iniciado com sucesso
+2024-11-05 21:39:43,778 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 21:39:43,795 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:39:43,797 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:39:49,408 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 21:39:49,411 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 21:39:49,558 - criptografia - INFO - Chave de criptografia carregada
+2024-11-05 21:39:49,558 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 21:39:49,569 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-05 21:39:50,583 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:39:52,961 - backup_service - ERROR - Erro ao exportar backup: no such column: nome
+2024-11-05 21:39:52,979 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:39:52,982 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:40:04,883 - backup_service - ERROR - Erro ao exportar backup: no such column: nome
+2024-11-05 21:40:04,901 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:40:04,903 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:40:09,090 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 21:42:41,398 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 21:42:41,399 - root - INFO - Logging iniciado com sucesso
+2024-11-05 21:42:41,479 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 21:42:41,481 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 21:42:41,547 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 21:42:41,547 - root - INFO - Arquivo de som encontrado!
+2024-11-05 21:42:41,550 - root - INFO - Som iniciado com sucesso
+2024-11-05 21:43:41,314 - usuario_model - INFO - Usuário atualizado: Gabriel
+2024-11-05 21:43:41,316 - auth_controller - INFO - Login bem sucedido: Gabriel
+2024-11-05 21:43:41,459 - criptografia - INFO - Chave de criptografia carregada
+2024-11-05 21:43:41,460 - senha_controller - INFO - Senhas listadas com sucesso
+2024-11-05 21:43:41,476 - gerenciador_view - INFO - Lista atualizada com 1 senhas
+2024-11-05 21:43:58,810 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:44:01,242 - backup_service - INFO - Backup exportado com sucesso para: C:/Users/User/Desktop/backup_senhas_20241105_214359.json
+2024-11-05 21:44:01,259 - root - ERROR - Erro ao carregar ícone no popup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 21:44:01,261 - root - ERROR - Erro ao definir ícone no MensagemPopup: bitmap "C:\Users\User\Desktop\Gabriel\Estudos\tet\views\popups\assets\icones\felichia.ico" not defined
+2024-11-05 22:24:07,196 - auth_controller - INFO - Logout realizado: Gabriel
+2024-11-05 23:54:28,085 - root - INFO - Sistema de logging iniciado com sucesso
+2024-11-05 23:54:28,086 - root - INFO - Logging iniciado com sucesso
+2024-11-05 23:54:28,179 - root - INFO - Tamanho da fonte alterado para: 15
+2024-11-05 23:54:28,182 - database - INFO - Tabelas criadas/verificadas com sucesso
+2024-11-05 23:54:28,356 - root - INFO - Procurando som em: C:\Users\User\Desktop\Gabriel\Estudos\tet\assets\sons\startup.wav
+2024-11-05 23:54:28,356 - root - INFO - Arquivo de som encontrado!
+2024-11-05 23:54:28,358 - root - INFO - Som iniciado com sucesso
+2024-11-05 23:56:38,196 - root - INFO - Sistema de logging iniciado com sucesso

@@ -1,0 +1,7 @@
+2024-11-05 21:19:10,383 - backup_service - ERROR - Erro ao exportar backup: tuple index out of range
+2024-11-05 21:19:19,367 - backup_service - ERROR - Erro ao exportar backup: tuple index out of range
+2024-11-05 21:24:55,289 - backup_service - ERROR - Erro ao exportar backup: no such column: nome
+2024-11-05 21:39:52,961 - backup_service - ERROR - Erro ao exportar backup: no such column: nome
+2024-11-05 21:40:04,883 - backup_service - ERROR - Erro ao exportar backup: no such column: nome
+2024-11-05 21:44:01,242 - backup_service - INFO - Backup exportado com sucesso para: C:/Users/User/Desktop/backup_senhas_20241105_214359.json
+2024-11-06 00:40:17,697 - backup_service - INFO - Backup exportado com sucesso para: C:/Users/User/Desktop/backup_senhas_20241106_004014.json
